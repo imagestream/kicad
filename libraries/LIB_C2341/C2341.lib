@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model C2341
+#/2446668/22617/2.46/12/4/Connector
+DEF C2341 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "C2341" 750 200 50 H V L CNN
+F2 "C2341" 750 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/Jing-Extension-of-the-Electronic-Co-LCSC-USB-A-F-Double-layer-DIP-900-Iron-shell-white-Not-high-temperature_C2341.pdf" 750 0 50 H I L CNN
+F4 "USB Connectors Plugin RoHS" 750 -100 50 H I L CNN "Description"
+F5 "15.9" 750 -200 50 H I L CNN "Height"
+F6 "Jing Extension of the Electronic Co." 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "C2341" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "C2341" 750 -500 50 H I L CNN "Arrow Part Number"
+F9 "" 750 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "" 750 -700 50 H I L CNN "Mouser Part Number"
+F11 "" 750 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 900 0 200 L 50 50 0 0 P
+X 8 8 900 -100 200 L 50 50 0 0 P
+X MH1 MH1 900 -200 200 L 50 50 0 0 P
+X MH2 MH2 900 -300 200 L 50 50 0 0 P
+X MH3 MH3 900 -400 200 L 50 50 0 0 P
+X MH4 MH4 900 -500 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

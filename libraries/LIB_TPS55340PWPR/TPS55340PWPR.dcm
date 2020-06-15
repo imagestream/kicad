@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS55340PWPR
+D Integrated, 5-A 40-V Wide Input Range Boost/SEPIC/Flyback DC-DC Regulator
+K
+F http://www.ti.com/lit/gpn/tps55340
+$ENDCMP
+#
+#End Doc Library

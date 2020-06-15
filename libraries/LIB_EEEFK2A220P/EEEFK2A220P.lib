@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# EEEFK2A220P
+#
+DEF EEEFK2A220P C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "EEEFK2A220P" 350 150 50 H V L CNN
+F2 "FKV(F)" 350 50 50 H I L CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf" 350 -50 50 H I L CNN
+F4 "Panasonic 22F +/-20% 1.3 100 V F SMD Metal Can Aluminium Electrolytic Capacitor" 350 -150 50 H I L CNN "Description"
+F5 "Panasonic" 350 -350 50 H I L CNN "Manufacturer_Name"
+F6 "EEEFK2A220P" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F7 "EEEFK2A220P" 350 -550 50 H I L CNN "Arrow Part Number"
+F8 "https://www.arrow.com/en/products/eee-fk2a220p/panasonic" 350 -650 50 H I L CNN "Arrow Price/Stock"
+DRAW
+A 545 0 265 1578 -1578 0 1 0 N 300 100 300 -100
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

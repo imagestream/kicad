@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS82150SILR
+D 17V Input 1A Synchronous Step-Down Converter MicroSiP Module With Integrated Inductor
+K
+F https://componentsearchengine.com/Datasheets/2/TPS82150SILR.pdf
+$ENDCMP
+#
+#End Doc Library

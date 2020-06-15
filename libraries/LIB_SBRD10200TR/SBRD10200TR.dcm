@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SBRD10200TR
+D SCHOTTKY RECTIFIER
+K
+F http://www.smc-diodes.com/propdf/SBRD10200%20N1314%20REV.A.pdf
+$ENDCMP
+#
+#End Doc Library

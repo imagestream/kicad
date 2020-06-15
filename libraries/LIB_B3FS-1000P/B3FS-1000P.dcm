@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP B3FS-1000P
+D Switch Tact,6x6mm,flat act,gen purp,tape Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 0.5mm
+K
+F https://www.omron.co.jp/ecb/products/pdf/b3fs.pdf
+$ENDCMP
+#
+#End Doc Library

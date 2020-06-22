@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model INA220AIDGSR
+#/261986/22617/2.46/10/3/Integrated Circuit
+DEF INA220AIDGSR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "INA220AIDGSR" 950 200 50 H V L CNN
+F2 "SOP50P490X110-10N" 950 100 50 H I L CNN
+F3 "https://www.ti.com/lit/gpn/INA220" 950 0 50 H I L CNN
+F4 "26V, Bi-Directional, Low-/High-Side, I2C Out Current/Power Monitor" 950 -100 50 H I L CNN "Description"
+F5 "1.1" 950 -200 50 H I L CNN "Height"
+F6 "INA220AIDGSR" 950 -300 50 H I L CNN "Texas Instruments Part Number"
+F7 "https://www.ti.com/store/ti/en/p/product/?p=INA220AIDGSR" 950 -400 50 H I L CNN "Texas Instruments Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "INA220AIDGSR" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A1 1 0 0 200 R 50 50 0 0 P
+X A0 2 0 -100 200 R 50 50 0 0 P
+X NC 3 0 -200 200 R 50 50 0 0 N
+X SDA 4 0 -300 200 R 50 50 0 0 P
+X SCL 5 0 -400 200 R 50 50 0 0 P
+X VIN+ 10 1100 0 200 L 50 50 0 0 P
+X VIN- 9 1100 -100 200 L 50 50 0 0 P
+X VBUS 8 1100 -200 200 L 50 50 0 0 P
+X GND 7 1100 -300 200 L 50 50 0 0 P
+X VS 6 1100 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

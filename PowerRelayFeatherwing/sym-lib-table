@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Adafruit_PowerRelay_Wing-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Adafruit_PowerRelay_Wing-eagle-import.lib)(options "")(descr ""))
+)

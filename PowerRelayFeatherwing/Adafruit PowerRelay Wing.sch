@@ -1,0 +1,490 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5700 4800 5600 4800
+Wire Wire Line
+	5600 4800 5200 4800
+Connection ~ 5600 4800
+Wire Wire Line
+	5500 4700 5600 4700
+Wire Wire Line
+	5600 4700 5700 4700
+Connection ~ 5600 4700
+Wire Wire Line
+	5700 4900 5600 4900
+Wire Wire Line
+	5600 4900 5500 4900
+Connection ~ 5600 4900
+Wire Wire Line
+	4600 4800 4600 4400
+Wire Wire Line
+	4400 4800 4600 4800
+Connection ~ 4600 4800
+Text Label 4600 4800 0    10   ~ 0
+GND
+Wire Wire Line
+	7700 5300 7700 5000
+Text Label 7700 5300 0    10   ~ 0
+GND
+Wire Wire Line
+	6900 5600 6900 5700
+Wire Wire Line
+	6900 5700 6900 5800
+Connection ~ 6900 5700
+Text Label 6900 5600 0    10   ~ 0
+GND
+Wire Wire Line
+	5000 3700 5000 3500
+Wire Wire Line
+	5000 3500 4600 3500
+Wire Wire Line
+	4600 3500 4600 3600
+Wire Wire Line
+	4600 3500 4600 2700
+Connection ~ 4600 3500
+Text Label 5000 3700 0    10   ~ 0
+3.3V
+Wire Wire Line
+	4200 2700 4200 2800
+Text Label 4200 2700 0    10   ~ 0
+3.3V
+Wire Wire Line
+	4600 4000 5000 4000
+Wire Wire Line
+	5000 4000 5000 3900
+Wire Wire Line
+	4200 3900 4200 4000
+Wire Wire Line
+	4200 4000 4600 4000
+Connection ~ 4600 4000
+Wire Wire Line
+	4400 4400 4400 4200
+Connection ~ 4400 4200
+Wire Wire Line
+	8600 5300 8600 5000
+Wire Wire Line
+	8500 5300 8500 5000
+Wire Wire Line
+	8400 5300 8400 5000
+Wire Wire Line
+	8300 5300 8300 5000
+Wire Wire Line
+	8200 5300 8200 5000
+Wire Wire Line
+	8100 5300 8100 5000
+Wire Wire Line
+	8000 5300 8000 5000
+Wire Wire Line
+	7900 5300 7900 5000
+Wire Wire Line
+	7800 5300 7800 5000
+Wire Wire Line
+	7400 5000 7400 5600
+Wire Wire Line
+	7400 5600 7400 5700
+Wire Wire Line
+	7400 5700 7300 5700
+Wire Wire Line
+	7300 5600 7400 5600
+Connection ~ 7400 5600
+Wire Wire Line
+	7800 2900 7800 3300
+Text Label 7800 3200 1    70   ~ 0
+VBAT
+Wire Wire Line
+	8000 2900 8000 3300
+Text Label 8000 3200 1    70   ~ 0
+USB
+Wire Wire Line
+	8100 2900 8100 3300
+Wire Wire Line
+	8200 2900 8200 3300
+Wire Wire Line
+	8300 2900 8300 3300
+Wire Wire Line
+	8400 2900 8400 3300
+Wire Wire Line
+	8500 2900 8500 3300
+Wire Wire Line
+	7800 5700 7900 5700
+Wire Wire Line
+	7900 5700 8000 5700
+Wire Wire Line
+	8000 5700 8300 5700
+Wire Wire Line
+	8300 5700 8400 5700
+Wire Wire Line
+	8400 5700 8500 5700
+Wire Wire Line
+	8500 5700 9200 5700
+Text Label 8900 5700 0    70   ~ 0
+RELAYSIGNAL
+Connection ~ 7900 5700
+Connection ~ 8000 5700
+Connection ~ 8300 5700
+Connection ~ 8500 5700
+Connection ~ 8400 5700
+Wire Wire Line
+	8500 2500 9100 2500
+Wire Wire Line
+	8100 2500 8200 2500
+Wire Wire Line
+	8200 2500 8300 2500
+Wire Wire Line
+	8300 2500 8400 2500
+Wire Wire Line
+	8400 2500 8500 2500
+Connection ~ 8200 2500
+Connection ~ 8300 2500
+Connection ~ 8400 2500
+Connection ~ 8500 2500
+Text Label 8600 2500 0    70   ~ 0
+RELAYSIGNAL
+Wire Wire Line
+	3000 4200 4000 4200
+Text Label 3200 4200 0    70   ~ 0
+RELAYSIGNAL
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:RELAY_G5LE U$1
+U 1 1 BABD3B23
+P 5400 4800
+F 0 "U$1" H 5400 4900 42  0000 C CNN
+F 1 "RELAY_G5LE" H 5400 4740 42  0000 C CNN
+F 2 "Adafruit PowerRelay Wing:RELAY_G5LE-1" H 5400 4800 50  0001 C CNN
+F 3 "" H 5400 4800 50  0001 C CNN
+	1    5400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:RELAY_G5LE U$1
+U 2 1 BABD3B2F
+P 4600 3800
+F 0 "U$1" H 4600 3900 42  0000 C CNN
+F 1 "RELAY_G5LE" H 4600 3740 42  0000 C CNN
+F 2 "Adafruit PowerRelay Wing:RELAY_G5LE-1" H 4600 3800 50  0001 C CNN
+F 3 "" H 4600 3800 50  0001 C CNN
+	2    4600 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:TRANSISTOR_NPN Q1
+U 1 1 8B44827F
+P 4600 4200
+F 0 "Q1" H 4650 4225 42  0000 L BNN
+F 1 "MMBT2222" H 4650 4150 42  0000 L BNN
+F 2 "Adafruit PowerRelay Wing:SOT23-R" H 4600 4200 50  0001 C CNN
+F 3 "" H 4600 4200 50  0001 C CNN
+	1    4600 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:GND #GND01
+U 1 1 DB8695AC
+P 4600 4900
+F 0 "#GND01" H 4600 4900 50  0001 C CNN
+F 1 "GND" H 4500 4800 59  0000 L BNN
+F 2 "" H 4600 4900 50  0001 C CNN
+F 3 "" H 4600 4900 50  0001 C CNN
+	1    4600 4900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:RESISTOR0805_NOOUTLINE R1
+U 1 1 B27AFD5B
+P 4200 4200
+F 0 "R1" H 4200 4300 50  0000 C CNN
+F 1 "1K" H 4200 4200 40  0000 C CNB
+F 2 "Adafruit PowerRelay Wing:0805-NO" H 4200 4200 50  0001 C CNN
+F 3 "" H 4200 4200 50  0001 C CNN
+	1    4200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:DIODESOD-323 D1
+U 1 1 8A755ED4
+P 5000 3800
+F 0 "D1" H 5000 3900 42  0000 C CNN
+F 1 "1N4148" H 5000 3702 42  0000 C CNN
+F 2 "Adafruit PowerRelay Wing:SOD-323" H 5000 3800 50  0001 C CNN
+F 3 "" H 5000 3800 50  0001 C CNN
+	1    5000 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:3.3V #U$02
+U 1 1 A8B04D1A
+P 4600 2600
+F 0 "#U$02" H 4600 2600 50  0001 C CNN
+F 1 "3.3V" H 4540 2640 42  0000 L BNN
+F 2 "" H 4600 2600 50  0001 C CNN
+F 3 "" H 4600 2600 50  0001 C CNN
+	1    4600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:HEADER-1X1ROUND JP2
+U 1 1 FA93C76E
+P 2900 4200
+F 0 "JP2" H 2650 4325 59  0000 L BNN
+F 1 "HEADER-1X1ROUND" H 2650 4000 59  0000 L BNN
+F 2 "Adafruit PowerRelay Wing:1X01_ROUND" H 2900 4200 50  0001 C CNN
+F 3 "" H 2900 4200 50  0001 C CNN
+	1    2900 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:RESISTOR0805_NOOUTLINE R2
+U 1 1 748ED202
+P 4400 4600
+F 0 "R2" H 4400 4700 50  0000 C CNN
+F 1 "10K" H 4400 4600 40  0000 C CNB
+F 2 "Adafruit PowerRelay Wing:0805-NO" H 4400 4600 50  0001 C CNN
+F 3 "" H 4400 4600 50  0001 C CNN
+	1    4400 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:LED0805_NOOUTLINE D2
+U 1 1 507E52A1
+P 4200 3400
+F 0 "D2" H 4150 3575 42  0000 C CNN
+F 1 "RED" H 4150 3290 42  0000 C CNN
+F 2 "Adafruit PowerRelay Wing:CHIPLED_0805_NOOUTLINE" H 4200 3400 50  0001 C CNN
+F 3 "" H 4200 3400 50  0001 C CNN
+	1    4200 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:RESISTOR0805_NOOUTLINE R3
+U 1 1 2DC20805
+P 4200 3000
+F 0 "R3" H 4200 3100 50  0000 C CNN
+F 1 "1K" H 4200 3000 40  0000 C CNB
+F 2 "Adafruit PowerRelay Wing:0805-NO" H 4200 3000 50  0001 C CNN
+F 3 "" H 4200 3000 50  0001 C CNN
+	1    4200 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:3.3V #U$04
+U 1 1 84E86E02
+P 4200 2600
+F 0 "#U$04" H 4200 2600 50  0001 C CNN
+F 1 "3.3V" H 4140 2640 42  0000 L BNN
+F 2 "" H 4200 2600 50  0001 C CNN
+F 3 "" H 4200 2600 50  0001 C CNN
+	1    4200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:SOLDERJUMPER_CLOSED SJ1
+U 1 1 44DD8191
+P 4200 3700
+F 0 "SJ1" H 4100 3800 59  0000 L BNN
+F 1 "SOLDERJUMPER_CLOSED" H 4100 3550 59  0000 L BNN
+F 2 "Adafruit PowerRelay Wing:SOLDERJUMPER_CLOSEDWIRE" H 4200 3700 50  0001 C CNN
+F 3 "" H 4200 3700 50  0001 C CNN
+	1    4200 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:FEATHERWING MS2
+U 1 1 900F4083
+P 7200 4800
+F 0 "MS2" H 7200 4800 50  0001 C CNN
+F 1 "FEATHERWING" H 7200 4800 50  0001 C CNN
+F 2 "Adafruit PowerRelay Wing:FEATHERWING" H 7200 4800 50  0001 C CNN
+F 3 "" H 7200 4800 50  0001 C CNN
+	1    7200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:GND #GND03
+U 1 1 7679BDCC
+P 7700 5400
+F 0 "#GND03" H 7700 5400 50  0001 C CNN
+F 1 "GND" H 7600 5300 59  0000 L BNN
+F 2 "" H 7700 5400 50  0001 C CNN
+F 3 "" H 7700 5400 50  0001 C CNN
+	1    7700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:SWITCH_TACT_SMT4.6X2.8 SW1
+U 1 1 F6BF4301
+P 7100 5600
+F 0 "SW1" H 7000 5850 42  0000 L BNN
+F 1 "KMR2" H 7000 5400 42  0000 L BNN
+F 2 "Adafruit PowerRelay Wing:BTN_KMR2_4.6X2.8" H 7100 5600 50  0001 C CNN
+F 3 "" H 7100 5600 50  0001 C CNN
+	1    7100 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:GND #GND04
+U 1 1 D896219B
+P 6900 5900
+F 0 "#GND04" H 6900 5900 50  0001 C CNN
+F 1 "GND" H 6800 5800 59  0000 L BNN
+F 2 "" H 6900 5900 50  0001 C CNN
+F 3 "" H 6900 5900 50  0001 C CNN
+	1    6900 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:SOLDERJUMPER SJ2
+U 1 1 CD7571B3
+P 7800 5500
+F 0 "SJ2" H 7700 5600 59  0000 L BNN
+F 1 "SOLDERJUMPER" H 7700 5350 59  0000 L BNN
+F 2 "Adafruit PowerRelay Wing:SOLDERJUMPER_ARROW_NOPASTE" H 7800 5500 50  0001 C CNN
+F 3 "" H 7800 5500 50  0001 C CNN
+	1    7800 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:SOLDERJUMPER SJ3
+U 1 1 EA45FD97
+P 7900 5500
+F 0 "SJ3" H 7800 5600 59  0000 L BNN
+F 1 "SOLDERJUMPER" H 7800 5350 59  0000 L BNN
+F 2 "Adafruit PowerRelay Wing:SOLDERJUMPER_ARROW_NOPASTE" H 7900 5500 50  0001 C CNN
+F 3 "" H 7900 5500 50  0001 C CNN
+	1    7900 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:SOLDERJUMPER SJ4
+U 1 1 FF662D92
+P 8000 5500
+F 0 "SJ4" H 7900 5600 59  0000 L BNN
+F 1 "SOLDERJUMPER" H 7900 5350 59  0000 L BNN
+F 2 "Adafruit PowerRelay Wing:SOLDERJUMPER_ARROW_NOPASTE" H 8000 5500 50  0001 C CNN
+F 3 "" H 8000 5500 50  0001 C CNN
+	1    8000 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:SOLDERJUMPER SJ7
+U 1 1 F677BB3B
+P 8300 5500
+F 0 "SJ7" H 8200 5600 59  0000 L BNN
+F 1 "SOLDERJUMPER" H 8200 5350 59  0000 L BNN
+F 2 "Adafruit PowerRelay Wing:SOLDERJUMPER_ARROW_NOPASTE" H 8300 5500 50  0001 C CNN
+F 3 "" H 8300 5500 50  0001 C CNN
+	1    8300 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:SOLDERJUMPER SJ8
+U 1 1 CD996D72
+P 8400 5500
+F 0 "SJ8" H 8300 5600 59  0000 L BNN
+F 1 "SOLDERJUMPER" H 8300 5350 59  0000 L BNN
+F 2 "Adafruit PowerRelay Wing:SOLDERJUMPER_ARROW_NOPASTE" H 8400 5500 50  0001 C CNN
+F 3 "" H 8400 5500 50  0001 C CNN
+	1    8400 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:SOLDERJUMPER SJ9
+U 1 1 696A11AD
+P 8500 5500
+F 0 "SJ9" H 8400 5600 59  0000 L BNN
+F 1 "SOLDERJUMPER" H 8400 5350 59  0000 L BNN
+F 2 "Adafruit PowerRelay Wing:SOLDERJUMPER_ARROW_NOPASTE" H 8500 5500 50  0001 C CNN
+F 3 "" H 8500 5500 50  0001 C CNN
+	1    8500 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:SOLDERJUMPER SJ16
+U 1 1 F50B1368
+P 8500 2700
+F 0 "SJ16" H 8400 2800 59  0000 L BNN
+F 1 "SOLDERJUMPER" H 8400 2550 59  0000 L BNN
+F 2 "Adafruit PowerRelay Wing:SOLDERJUMPER_ARROW_NOPASTE" H 8500 2700 50  0001 C CNN
+F 3 "" H 8500 2700 50  0001 C CNN
+	1    8500 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:SOLDERJUMPER SJ17
+U 1 1 98618C9A
+P 8400 2700
+F 0 "SJ17" H 8300 2800 59  0000 L BNN
+F 1 "SOLDERJUMPER" H 8300 2550 59  0000 L BNN
+F 2 "Adafruit PowerRelay Wing:SOLDERJUMPER_ARROW_NOPASTE" H 8400 2700 50  0001 C CNN
+F 3 "" H 8400 2700 50  0001 C CNN
+	1    8400 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:SOLDERJUMPER SJ18
+U 1 1 5B4461D0
+P 8200 2700
+F 0 "SJ18" H 8100 2800 59  0000 L BNN
+F 1 "SOLDERJUMPER" H 8100 2550 59  0000 L BNN
+F 2 "Adafruit PowerRelay Wing:SOLDERJUMPER_ARROW_NOPASTE" H 8200 2700 50  0001 C CNN
+F 3 "" H 8200 2700 50  0001 C CNN
+	1    8200 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:SOLDERJUMPER SJ19
+U 1 1 9946A22D
+P 8300 2700
+F 0 "SJ19" H 8200 2800 59  0000 L BNN
+F 1 "SOLDERJUMPER" H 8200 2550 59  0000 L BNN
+F 2 "Adafruit PowerRelay Wing:SOLDERJUMPER_ARROW_NOPASTE" H 8300 2700 50  0001 C CNN
+F 3 "" H 8300 2700 50  0001 C CNN
+	1    8300 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:SOLDERJUMPER SJ20
+U 1 1 03DC2A48
+P 8100 2700
+F 0 "SJ20" H 8000 2800 59  0000 L BNN
+F 1 "SOLDERJUMPER" H 8000 2550 59  0000 L BNN
+F 2 "Adafruit PowerRelay Wing:SOLDERJUMPER_ARROW_NOPASTE" H 8100 2700 50  0001 C CNN
+F 3 "" H 8100 2700 50  0001 C CNN
+	1    8100 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:3.3V #U$03
+U 1 1 54307519
+P 7500 5100
+F 0 "#U$03" H 7500 5100 50  0001 C CNN
+F 1 "3.3V" H 7440 5140 42  0000 L BNN
+F 2 "" H 7500 5100 50  0001 C CNN
+F 3 "" H 7500 5100 50  0001 C CNN
+	1    7500 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_PowerRelay_Wing-eagle-import:HEADER-1X3_508TERM JP1
+U 1 1 2F430EF2
+P 5500 4800
+F 0 "JP1" H 5250 5025 59  0000 L BNN
+F 1 "HEADER-1X3_508TERM" H 5250 4500 59  0000 L BNN
+F 2 "Adafruit PowerRelay Wing:TERMBLOCK_1X3_5.08MM" H 5500 4800 50  0001 C CNN
+F 3 "" H 5500 4800 50  0001 C CNN
+	1    5500 4800
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MPQ8634AGLE-P
+D Switching Voltage Regulators 12A,16V,Synchronous buck w/ Adjustable Current Limit, Programmable Frequency and Voltage Tracking
+F https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPQ8634A/document_id/4425/
+$ENDCMP
+#
+#End Doc Library

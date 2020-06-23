@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PM8804TR
+D STMicroelectronics PM8804TR PWM Current Mode Controller, Low Side Gate Driver, 10  75V 16-Pin, VFQFPN
+K
+F https://www.st.com/resource/en/datasheet/pm8804.pdf
+$ENDCMP
+#
+#End Doc Library

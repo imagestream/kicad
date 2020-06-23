@@ -1520,4 +1520,42 @@ Connection ~ 20825 4575
 Connection ~ 20825 6975
 NoConn ~ 16425 6375
 NoConn ~ 16425 6875
+$Comp
+L PM8805TR:PM8805TR IC?
+U 1 1 5EFD32AF
+P 1950 1550
+F 0 "IC?" H 2650 1815 50  0000 C CNN
+F 1 "PM8805TR" H 2650 1724 50  0000 C CNN
+F 2 "PM8805TR" H 3200 1650 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/pm8805.pdf" H 3200 1550 50  0001 L CNN
+F 4 "STMICROELECTRONICS - PM8805TR - POE/PD CONTROLLER, -40 TO 85DEG C" H 3200 1450 50  0001 L CNN "Description"
+F 5 "4" H 3200 1350 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 3200 1250 50  0001 L CNN "Manufacturer_Name"
+F 7 "PM8805TR" H 3200 1150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "PM8805TR" H 3200 1050 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/pm8805tr/stmicroelectronics" H 3200 950 50  0001 L CNN "Arrow Price/Stock"
+F 10 "511-PM8805TR" H 3200 850 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-PM8805TR" H 3200 750 50  0001 L CNN "Mouser Price/Stock"
+	1    1950 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PM8804TR:PM8804TR IC?
+U 1 1 5EFD4BD6
+P 3050 5525
+F 0 "IC?" H 4294 5421 50  0000 L CNN
+F 1 "PM8804TR" H 4294 5330 50  0000 L CNN
+F 2 "QFN50P340X340X90-17N" H 4100 5925 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/pm8804.pdf" H 4100 5825 50  0001 L CNN
+F 4 "STMicroelectronics PM8804TR PWM Current Mode Controller, Low Side Gate Driver, 10  75V 16-Pin, VFQFPN" H 4100 5725 50  0001 L CNN "Description"
+F 5 "0.9" H 4100 5625 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 4100 5525 50  0001 L CNN "Manufacturer_Name"
+F 7 "PM8804TR" H 4100 5425 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "PM8804TR" H 4100 5325 50  0001 L CNN "Arrow Part Number"
+F 9 "" H 4100 5225 50  0001 L CNN "Arrow Price/Stock"
+F 10 "" H 4100 5125 50  0001 L CNN "Mouser Part Number"
+F 11 "" H 4100 5025 50  0001 L CNN "Mouser Price/Stock"
+	1    3050 5525
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

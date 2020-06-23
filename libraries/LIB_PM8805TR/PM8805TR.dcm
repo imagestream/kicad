@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PM8805TR
+D STMICROELECTRONICS - PM8805TR - POE/PD CONTROLLER, -40 TO 85DEG C
+K
+F https://www.st.com/resource/en/datasheet/pm8805.pdf
+$ENDCMP
+#
+#End Doc Library

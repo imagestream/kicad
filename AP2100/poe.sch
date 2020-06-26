@@ -1523,39 +1523,221 @@ NoConn ~ 16425 6875
 $Comp
 L PM8805TR:PM8805TR IC?
 U 1 1 5EFD32AF
-P 1950 1550
-F 0 "IC?" H 2650 1815 50  0000 C CNN
-F 1 "PM8805TR" H 2650 1724 50  0000 C CNN
-F 2 "PM8805TR" H 3200 1650 50  0001 L CNN
-F 3 "https://www.st.com/resource/en/datasheet/pm8805.pdf" H 3200 1550 50  0001 L CNN
-F 4 "STMICROELECTRONICS - PM8805TR - POE/PD CONTROLLER, -40 TO 85DEG C" H 3200 1450 50  0001 L CNN "Description"
-F 5 "4" H 3200 1350 50  0001 L CNN "Height"
-F 6 "STMicroelectronics" H 3200 1250 50  0001 L CNN "Manufacturer_Name"
-F 7 "PM8805TR" H 3200 1150 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "PM8805TR" H 3200 1050 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/pm8805tr/stmicroelectronics" H 3200 950 50  0001 L CNN "Arrow Price/Stock"
-F 10 "511-PM8805TR" H 3200 850 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-PM8805TR" H 3200 750 50  0001 L CNN "Mouser Price/Stock"
-	1    1950 1550
+P 4900 3725
+F 0 "IC?" H 5600 3990 50  0000 C CNN
+F 1 "PM8805TR" H 5600 3899 50  0000 C CNN
+F 2 "PM8805TR" H 6150 3825 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/pm8805.pdf" H 6150 3725 50  0001 L CNN
+F 4 "STMICROELECTRONICS - PM8805TR - POE/PD CONTROLLER, -40 TO 85DEG C" H 6150 3625 50  0001 L CNN "Description"
+F 5 "4" H 6150 3525 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 6150 3425 50  0001 L CNN "Manufacturer_Name"
+F 7 "PM8805TR" H 6150 3325 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "PM8805TR" H 6150 3225 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/pm8805tr/stmicroelectronics" H 6150 3125 50  0001 L CNN "Arrow Price/Stock"
+F 10 "511-PM8805TR" H 6150 3025 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-PM8805TR" H 6150 2925 50  0001 L CNN "Mouser Price/Stock"
+	1    4900 3725
 	1    0    0    -1  
 $EndComp
 $Comp
 L PM8804TR:PM8804TR IC?
 U 1 1 5EFD4BD6
-P 3050 5525
-F 0 "IC?" H 4294 5421 50  0000 L CNN
-F 1 "PM8804TR" H 4294 5330 50  0000 L CNN
-F 2 "QFN50P340X340X90-17N" H 4100 5925 50  0001 L CNN
-F 3 "https://www.st.com/resource/en/datasheet/pm8804.pdf" H 4100 5825 50  0001 L CNN
-F 4 "STMicroelectronics PM8804TR PWM Current Mode Controller, Low Side Gate Driver, 10  75V 16-Pin, VFQFPN" H 4100 5725 50  0001 L CNN "Description"
-F 5 "0.9" H 4100 5625 50  0001 L CNN "Height"
-F 6 "STMicroelectronics" H 4100 5525 50  0001 L CNN "Manufacturer_Name"
-F 7 "PM8804TR" H 4100 5425 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "PM8804TR" H 4100 5325 50  0001 L CNN "Arrow Part Number"
-F 9 "" H 4100 5225 50  0001 L CNN "Arrow Price/Stock"
-F 10 "" H 4100 5125 50  0001 L CNN "Mouser Part Number"
-F 11 "" H 4100 5025 50  0001 L CNN "Mouser Price/Stock"
-	1    3050 5525
+P -2025 6200
+F 0 "IC?" H -781 6096 50  0000 L CNN
+F 1 "PM8804TR" H -781 6005 50  0000 L CNN
+F 2 "QFN50P340X340X90-17N" H -975 6600 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/pm8804.pdf" H -975 6500 50  0001 L CNN
+F 4 "STMicroelectronics PM8804TR PWM Current Mode Controller, Low Side Gate Driver, 10  75V 16-Pin, VFQFPN" H -975 6400 50  0001 L CNN "Description"
+F 5 "0.9" H -975 6300 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H -975 6200 50  0001 L CNN "Manufacturer_Name"
+F 7 "PM8804TR" H -975 6100 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "PM8804TR" H -975 6000 50  0001 L CNN "Arrow Part Number"
+F 9 "" H -975 5900 50  0001 L CNN "Arrow Price/Stock"
+F 10 "" H -975 5800 50  0001 L CNN "Mouser Part Number"
+F 11 "" H -975 5700 50  0001 L CNN "Mouser Price/Stock"
+	1    -2025 6200
 	1    0    0    -1  
 $EndComp
+$Comp
+L 0826-1X1T-GH-F:0826-1X1T-GH-F J?
+U 1 1 5EF63CAA
+P 1975 1900
+F 0 "J?" H 1975 2867 50  0000 C CNN
+F 1 "0826-1X1T-GH-F" H 1975 2776 50  0000 C CNN
+F 2 "BEL_0826-1X1T-GH-F" H 1975 1900 50  0001 L BNN
+F 3 "Bel Component" H 1975 1900 50  0001 L BNN
+	1    1975 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2675 2400 2775 2400
+Wire Wire Line
+	2775 2400 2775 2500
+$Comp
+L Scott:GND #PWR?
+U 1 1 5EF81E19
+P 2775 2500
+AR Path="/5EE8EF4C/5EF81E19" Ref="#PWR?"  Part="1" 
+AR Path="/5ED53141/5EF81E19" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2775 2250 50  0001 C CNN
+F 1 "GND" H 2780 2327 50  0000 C CNN
+F 2 "" H 2775 2500 50  0001 C CNN
+F 3 "" H 2775 2500 50  0001 C CNN
+	1    2775 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5EFB3570
+P 5225 1325
+AR Path="/5EE8EF4C/5EFB3570" Ref="C?"  Part="1" 
+AR Path="/5ED53141/5EFB3570" Ref="C?"  Part="1" 
+F 0 "C?" H 5317 1371 50  0000 L CNN
+F 1 ".1" H 5317 1280 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5225 1325 50  0001 C CNN
+F 3 "~" H 5225 1325 50  0001 C CNN
+F 4 "-" H 4175 -1025 50  0001 C CNN "MFR"
+F 5 "-" H 4175 -1025 50  0001 C CNN "MPN"
+F 6 "-" H 4175 -1025 50  0001 C CNN "SPR"
+F 7 "-" H 4175 -1025 50  0001 C CNN "SPN"
+F 8 "-" H 4175 -1025 50  0001 C CNN "SPURL"
+	1    5225 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5EFB3576
+P 5025 1425
+F 0 "#PWR?" H 5025 1175 50  0001 C CNN
+F 1 "GNDA" H 5030 1252 50  0000 C CNN
+F 2 "" H 5025 1425 50  0001 C CNN
+F 3 "" H 5025 1425 50  0001 C CNN
+	1    5025 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5EFB3581
+P 5375 1925
+F 0 "R?" H 5175 1975 50  0000 L CNN
+F 1 "30.1K" H 5100 1875 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5375 1925 50  0001 C CNN
+F 3 "~" H 5375 1925 50  0001 C CNN
+F 4 "-" H 4175 -1025 50  0001 C CNN "MFR"
+F 5 "-" H 4175 -1025 50  0001 C CNN "MPN"
+F 6 "-" H 4175 -1025 50  0001 C CNN "SPR"
+F 7 "-" H 4175 -1025 50  0001 C CNN "SPN"
+F 8 "-" H 4175 -1025 50  0001 C CNN "SPURL"
+	1    5375 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5EFB358C
+P 5575 1925
+F 0 "R?" H 5375 1875 50  0000 L CNN
+F 1 "6.98K" H 5300 1975 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5575 1925 50  0001 C CNN
+F 3 "~" H 5575 1925 50  0001 C CNN
+F 4 "-" H 4175 -1025 50  0001 C CNN "MFR"
+F 5 "-" H 4175 -1025 50  0001 C CNN "MPN"
+F 6 "-" H 4175 -1025 50  0001 C CNN "SPR"
+F 7 "-" H 4175 -1025 50  0001 C CNN "SPN"
+F 8 "-" H 4175 -1025 50  0001 C CNN "SPURL"
+	1    5575 1925
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5EFB3592
+P 5375 2075
+F 0 "#PWR?" H 5375 1825 50  0001 C CNN
+F 1 "GNDA" H 5380 1902 50  0000 C CNN
+F 2 "" H 5375 2075 50  0001 C CNN
+F 3 "" H 5375 2075 50  0001 C CNN
+	1    5375 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Scott:GND #PWR?
+U 1 1 5EFB3598
+P 5225 1425
+F 0 "#PWR?" H 5225 1175 50  0001 C CNN
+F 1 "GND" H 5230 1252 50  0000 C CNN
+F 2 "" H 5225 1425 50  0001 C CNN
+F 3 "" H 5225 1425 50  0001 C CNN
+	1    5225 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Scott:GND #PWR?
+U 1 1 5EFB359E
+P 5575 2075
+F 0 "#PWR?" H 5575 1825 50  0001 C CNN
+F 1 "GND" H 5580 1902 50  0000 C CNN
+F 2 "" H 5575 2075 50  0001 C CNN
+F 3 "" H 5575 2075 50  0001 C CNN
+	1    5575 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5025 1425 5225 1425
+Wire Wire Line
+	5225 1175 5225 1225
+Wire Wire Line
+	5225 1175 5875 1175
+Wire Wire Line
+	5375 1475 5375 1825
+Wire Wire Line
+	5375 1475 5875 1475
+Wire Wire Line
+	5575 1825 5575 1675
+Wire Wire Line
+	5575 1675 5875 1675
+Wire Wire Line
+	5375 2025 5375 2075
+Wire Wire Line
+	5575 2025 5575 2075
+Connection ~ 5225 1425
+$Comp
+L Device:C_Small C?
+U 1 1 5EFC1238
+P 3500 1325
+AR Path="/5EE8EF4C/5EFC1238" Ref="C?"  Part="1" 
+AR Path="/5ED53141/5EFC1238" Ref="C?"  Part="1" 
+F 0 "C?" H 3325 1400 50  0000 L CNN
+F 1 "1nF 250V" H 3100 1250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3500 1325 50  0001 C CNN
+F 3 "~" H 3500 1325 50  0001 C CNN
+F 4 "-" H 2450 -1025 50  0001 C CNN "MFR"
+F 5 "-" H 2450 -1025 50  0001 C CNN "MPN"
+F 6 "-" H 2450 -1025 50  0001 C CNN "SPR"
+F 7 "-" H 2450 -1025 50  0001 C CNN "SPN"
+F 8 "-" H 2450 -1025 50  0001 C CNN "SPURL"
+	1    3500 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_TVS_ALT D?
+U 1 1 5EFC2CBC
+P 3800 1350
+F 0 "D?" V 3754 1430 50  0000 L CNN
+F 1 "SM15T68CA" V 3845 1430 50  0000 L CNN
+F 2 "Diode_SMD:D_SMC" H 3800 1350 50  0001 C CNN
+F 3 "~" H 3800 1350 50  0001 C CNN
+	1    3800 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 1225 3500 1100
+Wire Wire Line
+	3500 1100 3800 1100
+Wire Wire Line
+	3800 1100 3800 1200
+Wire Wire Line
+	3500 1550 3800 1550
+Wire Wire Line
+	3800 1550 3800 1500
+Wire Wire Line
+	3500 1425 3500 1550
 $EndSCHEMATC

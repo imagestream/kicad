@@ -411,8 +411,6 @@ Text Label 650  1500 0    50   ~ 0
 +12V
 Text Label 5600 1500 0    50   ~ 0
 CPU_VDD
-Text Notes 2900 2400 0    50   ~ 0
-Is this really correct?\nRemoving the voltage divider\nresistors because Vfb == Vdd
 Text Label 1400 1900 0    50   ~ 0
 EN_VDD
 Text Label 3175 2150 0    50   ~ 0
@@ -1116,4 +1114,26 @@ Wire Wire Line
 Connection ~ 3425 5700
 Wire Wire Line
 	3425 5700 3725 5700
+$Comp
+L Scott:GND #PWR?
+U 1 1 5EF7ABF6
+P -475 -500
+F 0 "#PWR?" H -475 -750 50  0001 C CNN
+F 1 "GND" H -470 -673 50  0000 C CNN
+F 2 "" H -475 -500 50  0001 C CNN
+F 3 "" H -475 -500 50  0001 C CNN
+	1    -475 -500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Scott:GND #PWR?
+U 1 1 5EF7BF91
+P -50 -500
+F 0 "#PWR?" H -50 -750 50  0001 C CNN
+F 1 "GND" H -45 -673 50  0000 C CNN
+F 2 "" H -50 -500 50  0001 C CNN
+F 3 "" H -50 -500 50  0001 C CNN
+	1    -50  -500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STPS4S200S
+D Schottky Rectifier 4A 200V IPAK STMicroelectronics STPS4S200S, SMT Schottky Diode, 200V 10A, 2-Pin SMC
+K
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/f1/ca/76/fb/56/90/40/1c/DM00136818.pdf/files/DM00136818.pdf/jcr:content/translations/en.DM00136818.pdf
+$ENDCMP
+#
+#End Doc Library

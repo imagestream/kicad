@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model EEEFK2A330P
+#/12671861/22617/2.47/2/0/Capacitor Polarised
+DEF EEEFK2A330P C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "EEEFK2A330P" 350 150 50 H V L CNN
+F2 "CAPAE1030X1050N" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/EEEFK2A330P.pdf" 350 -50 50 H I L CNN
+F4 "PANASONIC - EEEFK2A330P - SMD Aluminium Electrolytic Capacitor, Radial Can - SMD, 33 F, 100 V, FK Series, 2000 hours @ 105C" 350 -150 50 H I L CNN "Description"
+F5 "10.5" 350 -250 50 H I L CNN "Height"
+F6 "Panasonic" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "EEEFK2A330P" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "EEEFK2A330P" 350 -550 50 H I L CNN "Arrow Part Number"
+F9 "" 350 -650 50 H I L CNN "Arrow Price/Stock"
+F10 "" 350 -750 50 H I L CNN "Mouser Part Number"
+F11 "" 350 -850 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

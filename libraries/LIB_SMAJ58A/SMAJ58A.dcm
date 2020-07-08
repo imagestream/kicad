@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMAJ58A
+D Littelfuse SMAJ58A Uni-Directional TVS Diode, 400W peak, 2-Pin DO-214AC
+K
+F https://componentsearchengine.com/Datasheets/2/SMAJ58A.pdf
+$ENDCMP
+#
+#End Doc Library

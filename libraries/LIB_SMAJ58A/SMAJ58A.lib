@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SMAJ58A
+#/443933/22617/2.47/2/4/TVS Diode (Uni-directional)
+DEF SMAJ58A D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L BNN
+F1 "SMAJ58A" 400 250 50 H V L BNN
+F2 "DIOM5026X229N" 400 150 50 H I L BNN
+F3 "https://componentsearchengine.com/Datasheets/2/SMAJ58A.pdf" 400 50 50 H I L BNN
+F4 "Littelfuse SMAJ58A Uni-Directional TVS Diode, 400W peak, 2-Pin DO-214AC" 400 -50 50 H I L BNN "Description"
+F5 "2.29" 400 -150 50 H I L BNN "Height"
+F6 "LITTELFUSE" 400 -250 50 H I L BNN "Manufacturer_Name"
+F7 "SMAJ58A" 400 -350 50 H I L BNN "Manufacturer_Part_Number"
+F8 "SMAJ58A" 400 -450 50 H I L BNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/smaj58a/littelfuse" 400 -550 50 H I L BNN "Arrow Price/Stock"
+F10 "576-SMAJ58A" 400 -650 50 H I L BNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMAJ58A?qs=2VFNtWizgiepPOMiS0Encw%3D%3D" 400 -750 50 H I L BNN "Mouser Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 -80 240 -100 N
+P 2 0 1 6 200 -80 200 80 N
+P 2 0 1 6 160 100 200 80 N
+ENDDRAW
+ENDDEF
+#
+#End Library

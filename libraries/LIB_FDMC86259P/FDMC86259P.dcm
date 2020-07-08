@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FDMC86259P
+D FDMC86259P P-Channel MOSFET, 3.2 A, 150 V PowerTrench, 8-Pin Power 33 ON Semiconductor
+K
+F https://www.onsemi.com/pub/Collateral/FDMC86259P-D.pdf
+$ENDCMP
+#
+#End Doc Library

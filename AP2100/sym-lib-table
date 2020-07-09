@@ -151,4 +151,5 @@
   (lib (name "dk_Addressable-Specialty")(type "Legacy")(uri "/home/syoder/kicad/libraries/digikey-kicad-library/digikey-symbols/dk_Addressable-Specialty.lib")(options "")(descr ""))
   (lib (name "AP2100-rescue")(type "Legacy")(uri "${KIPRJMOD}/AP2100-rescue.lib")(options "")(descr ""))
   (lib (name "SMAJ58A")(type "Legacy")(uri "/home/syoder/kicad/libraries/LIB_SMAJ58A/SMAJ58A.lib")(options "")(descr ""))
+  (lib (name "FOD817AS")(type "KiCad")(uri "/home/syoder/kicad/libraries/LIB_FOD817AS/FOD817AS.kicad_sym")(options "")(descr ""))
 )

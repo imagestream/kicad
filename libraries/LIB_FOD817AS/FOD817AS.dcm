@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FOD817AS
+D Fairchild FOD817AS DC Input Phototransistor Output Optocoupler, Surface Mount, 4-Pin MDIP
+K
+F https://www.onsemi.com/pub/Collateral/FOD814-D.PDF
+$ENDCMP
+#
+#End Doc Library

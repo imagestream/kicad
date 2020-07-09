@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model EEEFK1C101P
+#/253369/22617/2.47/2/4/Capacitor Polarised
+DEF EEEFK1C101P C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "EEEFK1C101P" 350 150 50 H V L CNN
+F2 "CAPM7058X610N" 350 50 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/5370433" 350 -50 50 H I L CNN
+F4 "Ecap 100uF 16V D case Panasonic 100uF 16 V dc Aluminium Electrolytic Capacitor, FK SMD Series 2000h 6.3 Dia. x 5.8mm" 350 -150 50 H I L CNN "Description"
+F5 "6.1" 350 -250 50 H I L CNN "Height"
+F6 "Panasonic" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "EEEFK1C101P" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "EEEFK1C101P" 350 -550 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/eeefk1c101p/panasonic" 350 -650 50 H I L CNN "Arrow Price/Stock"
+F10 "" 350 -750 50 H I L CNN "Mouser Part Number"
+F11 "" 350 -850 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X ~ 2 0 0 100 R 50 50 0 0 P
+X ~  500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

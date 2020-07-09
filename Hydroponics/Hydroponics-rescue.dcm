@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 691313410004-691313410004
+F http://uk.rs-online.com/web/p/products/1725260
+$ENDCMP
+#
+$CMP B3FS-1000P-B3FS-1000P
+F https://www.omron.co.jp/ecb/products/pdf/b3fs.pdf
+$ENDCMP
+#
+$CMP C2341-C2341
+F https://datasheet.lcsc.com/szlcsc/Jing-Extension-of-the-Electronic-Co-LCSC-USB-A-F-Double-layer-DIP-900-Iron-shell-white-Not-high-temperature_C2341.pdf
+$ENDCMP
+#
+$CMP TPS55340PWPR-TPS55340PWPR
+F http://www.ti.com/lit/gpn/tps55340
+$ENDCMP
+#
+$CMP TPS82150SILR-TPS82150SILR
+F https://componentsearchengine.com/Datasheets/2/TPS82150SILR.pdf
+$ENDCMP
+#
+#End Doc Library

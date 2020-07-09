@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Hydroponics-rescue")(type "Legacy")(uri "${KIPRJMOD}/Hydroponics-rescue.lib")(options "")(descr ""))
+)

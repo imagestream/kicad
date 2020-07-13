@@ -2,7 +2,7 @@
 
   (page 1 5)
 
-  (paper "USLetter")
+  (paper "USLegal")
 
   (title_block
     (title "AP2100")

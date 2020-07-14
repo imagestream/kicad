@@ -89,7 +89,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1016,
         "min_copper_edge_clearance": 0.01,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -105,6 +105,7 @@
       },
       "track_widths": [
         0.25,
+        0.1016,
         0.1524
       ],
       "via_dimensions": [
@@ -118,7 +119,8 @@
         }
       ],
       "zones_use_no_outline": false
-    }
+    },
+    "layer_presets": []
   },
   "boards": [],
   "cvpcb": {
@@ -304,10 +306,46 @@
     "version": 1
   },
   "net_settings": {
-    "classes": [],
+    "classes": [
+      {
+        "clearance": 0.1016,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DDR4",
+        "nets": [
+          "DDR4_DQ0",
+          "DDR4_DQ1",
+          "DDR4_DQ10",
+          "DDR4_DQ11",
+          "DDR4_DQ12",
+          "DDR4_DQ13",
+          "DDR4_DQ14",
+          "DDR4_DQ15",
+          "DDR4_DQ2",
+          "DDR4_DQ3",
+          "DDR4_DQ4",
+          "DDR4_DQ5",
+          "DDR4_DQ6",
+          "DDR4_DQ7",
+          "DDR4_DQ8",
+          "DDR4_DQ9",
+          "DDR4_MECC0",
+          "DDR4_MECC1",
+          "DDR4_MECC2",
+          "DDR4_MECC3"
+        ],
+        "track_width": 0.1016,
+        "via_diameter": 0.4572,
+        "via_drill": 0.2032
+      }
+    ],
     "meta": {
       "version": 0
-    }
+    },
+    "net_colors": null
   },
   "pcbnew": {
     "last_paths": {
@@ -345,7 +383,7 @@
   },
   "sheets": [
     [
-      "bce88df9-2b05-4425-9eb1-fe5f9f3f7bd2",
+      "ae0b8865-c4f6-478e-9230-866d8b3bb283",
       ""
     ],
     [

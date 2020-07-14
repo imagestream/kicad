@@ -1,6 +1,6 @@
-(kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-77313e4~101~ubuntu18.04.1")
+(kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-7340c97~102~ubuntu18.04.1")
 
-  (page 3 5)
+  (page 1 5)
 
   (paper "USLegal")
 
@@ -362,6 +362,7 @@
       )
     )
   )
+
 
   (junction (at 21.59 38.1) (diameter 0) (color 0 0 0 0))
   (junction (at 26.67 62.23) (diameter 0) (color 0 0 0 0))

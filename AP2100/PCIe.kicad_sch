@@ -1,4 +1,4 @@
-(kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-77313e4~101~ubuntu18.04.1")
+(kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-7340c97~102~ubuntu18.04.1")
 
   (page 1 5)
 
@@ -253,6 +253,7 @@
       )
     )
   )
+
 
 
   (symbol (lib_id "Connector:Bus_PCI_Express_Mini") (at 50.8 85.09 0) (unit 1)

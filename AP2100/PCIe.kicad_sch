@@ -255,7 +255,6 @@
   )
 
 
-
   (symbol (lib_id "Connector:Bus_PCI_Express_Mini") (at 50.8 85.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005ee8039d")

@@ -1,6 +1,6 @@
-(kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-7340c97~102~ubuntu18.04.1")
+(kicad_sch (version 20200827) (generator eeschema)
 
-  (page 1 5)
+  (page 1 6)
 
   (paper "USLegal")
 
@@ -1555,7 +1555,8 @@
 
   (sheet (at 195.58 29.845) (size 30.48 16.51)
     (stroke (width 0) (type solid) (color 132 0 132 1))
-    (fill (color 255 255 255 0.0000))    (uuid 00000000-0000-0000-0000-00005ed565ec)
+    (fill (color 255 255 255 0.0000))
+    (uuid 00000000-0000-0000-0000-00005ed565ec)
     (property "Sheet name" "CPU Memory" (id 0) (at 195.58 29.2095 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
@@ -1566,7 +1567,8 @@
 
   (sheet (at 196.85 113.665) (size 27.94 17.78)
     (stroke (width 0) (type solid) (color 132 0 132 1))
-    (fill (color 255 255 255 0.0000))    (uuid 00000000-0000-0000-0000-00005ee769e0)
+    (fill (color 255 255 255 0.0000))
+    (uuid 00000000-0000-0000-0000-00005ee769e0)
     (property "Sheet name" "PCIe" (id 0) (at 196.85 113.0295 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
@@ -1577,7 +1579,8 @@
 
   (sheet (at 196.85 140.335) (size 30.48 20.32)
     (stroke (width 0) (type solid) (color 132 0 132 1))
-    (fill (color 255 255 255 0.0000))    (uuid 00000000-0000-0000-0000-00005ed53141)
+    (fill (color 255 255 255 0.0000))
+    (uuid 00000000-0000-0000-0000-00005ed53141)
     (property "Sheet name" "PoE Power" (id 0) (at 196.85 139.6995 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
@@ -1588,11 +1591,24 @@
 
   (sheet (at 195.58 57.785) (size 30.48 17.78)
     (stroke (width 0) (type solid) (color 132 0 132 1))
-    (fill (color 255 255 255 0.0000))    (uuid 00000000-0000-0000-0000-00005ee8ef4c)
+    (fill (color 255 255 255 0.0000))
+    (uuid 00000000-0000-0000-0000-00005ee8ef4c)
     (property "Sheet name" "Power" (id 0) (at 195.58 57.1495 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "Power.kicad_sch" (id 1) (at 195.58 76.0735 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 195.58 87.63) (size 29.845 20.32)
+    (stroke (width 0.0006) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid ec5ab78c-c7c8-4714-bc46-a12514bc0b51)
+    (property "Sheet name" "eMMC" (id 0) (at 195.58 86.9943 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "eMMC.kicad_sch" (id 1) (at 195.58 108.4587 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -2005,6 +2021,12 @@
     )
     (path "/00000000-0000-0000-0000-00005ee8ef4c/00000000-0000-0000-0000-00005ef244ce"
       (reference "U3") (unit 1)
+    )
+    (path "/ec5ab78c-c7c8-4714-bc46-a12514bc0b51/1ef93ce0-8878-41b6-b979-2d52755edbeb"
+      (reference "IC?") (unit 1)
+    )
+    (path "/ec5ab78c-c7c8-4714-bc46-a12514bc0b51/e0617cbd-a756-4f28-9e8f-19123be677e3"
+      (reference "U?") (unit 6)
     )
     (path "/00000000-0000-0000-0000-00005ee769e0/00000000-0000-0000-0000-00005ee77536"
       (reference "J1") (unit 1)

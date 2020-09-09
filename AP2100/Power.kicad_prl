@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "Front Layers",
+    "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -59,10 +59,10 @@
       36,
       37
     ],
-    "visible_layers": "290aa_00000001"
+    "visible_layers": "7ffff_ffffffff"
   },
   "meta": {
-    "filename": "Hydroponics.kicad_prl",
+    "filename": "Power.kicad_prl",
     "version": 2
   },
   "project": {

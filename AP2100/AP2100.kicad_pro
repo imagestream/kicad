@@ -320,6 +320,8 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -357,6 +359,8 @@
           "DDR4_MECC2",
           "DDR4_MECC3"
         ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1016,
         "via_diameter": 0.4572,
         "via_drill": 0.2032,
@@ -405,7 +409,7 @@
   },
   "sheets": [
     [
-      "aee1a83b-79ab-4bdd-93c5-353f6c5d9707",
+      "158ec278-cafa-4362-a94c-5832b902b3b1",
       ""
     ],
     [

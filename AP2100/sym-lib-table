@@ -153,4 +153,5 @@
   (lib (name "SMAJ58A")(type "Legacy")(uri "/home/syoder/kicad/libraries/LIB_SMAJ58A/SMAJ58A.lib")(options "")(descr ""))
   (lib (name "FOD817AS")(type "KiCad")(uri "/home/syoder/kicad/libraries/LIB_FOD817AS/FOD817AS.kicad_sym")(options "")(descr ""))
   (lib (name "Scott")(type "KiCad")(uri "/home/syoder/kicad/libraries/Scott.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX17521ATG+")(type "Legacy")(uri "/home/syoder/kicad/libraries/MAX17521/MAX17521ATG+.lib")(options "")(descr ""))
 )

@@ -1,4 +1,4 @@
-(kicad_sch (version 20200827) (generator eeschema)
+(kicad_sch (version 20200828) (generator eeschema)
 
   (page 6 6)
 
@@ -2614,9 +2614,9 @@
   (junction (at 309.88 161.925) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 319.405 161.925) (diameter 0.9144) (color 0 0 0 0))
 
+  (no_connect (at 38.1 131.445))
   (no_connect (at 43.18 131.445))
   (no_connect (at 48.26 169.545))
-  (no_connect (at 38.1 131.445))
 
   (wire (pts (xy 14.605 146.685) (xy 14.605 149.225))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -6250,7 +6250,7 @@
     (property "Reference" "C62" (id 0) (at 17.78 153.035 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (id 1) (at 28.575 153.035 90)
+    (property "Value" "10nF" (id 1) (at 24.13 153.035 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 18.415 151.765 0)

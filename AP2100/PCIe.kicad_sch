@@ -10,7 +10,7 @@
   )
 
   (lib_symbols
-    (symbol "Connector:Bus_PCI_Express_Mini"
+    (symbol "Connector:Bus_PCI_Express_Mini" (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at -16.51 31.75 0)
         (effects (font (size 1.27 1.27)))
       )

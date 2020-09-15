@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX17632BATE+
+D Switching Voltage Regulators 36V 2A DC-DC Converter
+K
+F https://datasheets.maximintegrated.com/en/ds/MAX17632.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,6 +1,6 @@
 (kicad_sch (version 20200828) (generator eeschema)
 
-  (page 3 8)
+  (page 3 9)
 
   (paper "USLegal")
 
@@ -2616,8 +2616,8 @@
   (junction (at 309.88 161.925) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 319.405 161.925) (diameter 0.9144) (color 0 0 0 0))
 
-  (no_connect (at 48.26 169.545))
   (no_connect (at 38.1 131.445))
+  (no_connect (at 48.26 169.545))
   (no_connect (at 43.18 131.445))
 
   (wire (pts (xy 14.605 146.685) (xy 14.605 149.225))

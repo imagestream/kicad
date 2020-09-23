@@ -2,7 +2,7 @@
 
   (page 6 9)
 
-  (paper "A4")
+  (paper "A3")
 
   (lib_symbols
     (symbol "AP2100-rescue:GND-Scott" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)

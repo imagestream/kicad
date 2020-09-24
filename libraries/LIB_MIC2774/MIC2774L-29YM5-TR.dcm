@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIC2774L-29YM5-TR
+D Supervisory Circuits Dual Voltage Supervisor with 0.3V and 2.93V Thresholds, Active-Low Push-Pull Out
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2774.pdf
+$ENDCMP
+#
+#End Doc Library

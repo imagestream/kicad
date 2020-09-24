@@ -409,7 +409,7 @@
   },
   "sheets": [
     [
-      "ecce7368-3229-4dfb-b0bd-07852744f188",
+      "d6ad3b4e-f768-440f-bcdd-490deff3fac9",
       ""
     ],
     [
@@ -421,8 +421,12 @@
       "PoE Power"
     ],
     [
+      "e5841edc-dfa6-46d5-a2ac-72cca12ce1a2",
+      "Clocks"
+    ],
+    [
       "463f0790-3778-4a7d-82e7-e77889429e9e",
-      "Reset / Clocks"
+      "Reset"
     ],
     [
       "a9bfb55a-fc2b-4f82-a259-a118f76e1dde",

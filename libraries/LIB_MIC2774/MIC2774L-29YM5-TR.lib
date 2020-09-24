@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MIC2774L-29YM5-TR
+#/2055706/22617/2.47/5/4/Integrated Circuit
+DEF MIC2774L-29YM5-TR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "MIC2774L-29YM5-TR" 950 200 50 H V L CNN
+F2 "SOT95P280X145-5N" 950 100 50 H I L CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic2774.pdf" 950 0 50 H I L CNN
+F4 "Supervisory Circuits Dual Voltage Supervisor with 0.3V and 2.93V Thresholds, Active-Low Push-Pull Out" 950 -100 50 H I L CNN "Description"
+F5 "1.45" 950 -200 50 H I L CNN "Height"
+F6 "Microchip" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MIC2774L-29YM5-TR" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "MIC2774L-29YM5-TR" 950 -500 50 H I L CNN "Arrow Part Number"
+F9 "" 950 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "998-MIC2774L-29YM5TR" 950 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/MIC2774L-29YM5-TR?qs=Y3Q3JoKAO1Rf%2FnPkMB8VIA%3D%3D" 950 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X ~RST 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X ~MR 3 0 -200 200 R 50 50 0 0 P
+X IN 4 1100 0 200 L 50 50 0 0 P
+X VDD 5 1100 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

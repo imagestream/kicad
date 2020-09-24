@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCF2129T_2,518
+D NXP - PCF2129T/2,518 - REAL TIME CLOCK/CALENDAR, I2C/SPI, SOIC
+K
+F http://www.nxp.com/docs/en/data-sheet/PCF2129.pdf
+$ENDCMP
+#
+#End Doc Library

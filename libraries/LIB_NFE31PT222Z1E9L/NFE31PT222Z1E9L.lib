@@ -1,0 +1,42 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NFE31PT222Z1E9L
+#/300327/22617/2.47/5/2/Filter
+DEF NFE31PT222Z1E9L FL 0 30 Y Y 1 F N
+F0 "FL" 1000 450 50 H V L CNN
+F1 "NFE31PT222Z1E9L" 1000 350 50 H V L CNN
+F2 "NFE31" 1000 250 50 H I L CNN
+F3 "https://www.murata.com/en-us/products/productdetail?partno=NFE31PT222Z1E9%23" 1000 150 50 H I L CNN
+F4 "Murata NFE31P Series 6A 25 V dc SMD Power Line Filter, with Solder Pad Terminals" 1000 50 50 H I L CNN "Description"
+F5 "1.75" 1000 -50 50 H I L CNN "Height"
+F6 "Murata Electronics" 1000 -150 50 H I L CNN "Manufacturer_Name"
+F7 "NFE31PT222Z1E9L" 1000 -250 50 H I L CNN "Manufacturer_Part_Number"
+F8 "NFE31PT222Z1E9L" 1000 -350 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/nfe31pt222z1e9l/murata-manufacturing" 1000 -450 50 H I L CNN "Arrow Price/Stock"
+F10 "81-NFE31PT222Z1E9L" 1000 -550 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/NFE31PT222Z1E9L?qs=lO41S1e7fulGqDcFbLd31Q%3D%3D" 1000 -650 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 -200 100 R 50 50 0 0 P
+X ~ 3 1300 0 100 L 50 50 0 0 P
+X ~ 4 650 -300 100 U 50 50 0 0 P
+X ~ 5 800 -200 100 L 50 50 0 0 P
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 150 -2 50 1777 -23 0 1 6 N 200 0 100 0
+A 1150 -2 50 1777 -23 0 1 6 N 1200 0 1100 0
+A 950 -2 50 1777 -23 0 1 6 N 1000 0 900 0
+A 1050 -2 50 1777 -23 0 1 6 N 1100 0 1000 0
+A 850 -2 50 1777 -23 0 1 6 N 900 0 800 0
+A 650 150 130 2375 -3025 0 1 6 N 720 40 580 40
+A 650 -150 130 1225 -575 0 1 6 N 720 -40 580 -40
+P 2 0 1 6 500 0 800 0 N
+P 2 0 1 6 650 -200 650 -20 N
+P 2 0 1 6 600 -200 700 -200 N
+P 2 0 1 6 620 -220 680 -220 N
+P 2 0 1 6 640 -240 660 -240 N
+ENDDRAW
+ENDDEF
+#
+#End Library

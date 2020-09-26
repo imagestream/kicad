@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX1564ETE+
+D IC,Switch,MAX1564ETE+ Maxim MAX1564ETE+, Triple USB Power Switch, 100mOhm, 2.75 V min., 16-Pin QFN
+K
+F http://docs-emea.rs-online.com/webdocs/12b1/0900766b812b1116.pdf
+$ENDCMP
+#
+#End Doc Library

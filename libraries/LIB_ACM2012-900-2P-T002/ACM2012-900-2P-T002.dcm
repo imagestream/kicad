@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACM2012-900-2P-T002
+D Common Mode Choke 90R 0,4A SMD
+K
+F https://product.tdk.com/info/en/catalog/datasheets/cmf_commercial_signal_acm2012_en.pdf
+$ENDCMP
+#
+#End Doc Library

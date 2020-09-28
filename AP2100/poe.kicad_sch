@@ -2616,9 +2616,9 @@
   (junction (at 352.425 183.515) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 361.95 183.515) (diameter 0.9144) (color 0 0 0 0))
 
-  (no_connect (at 80.645 153.035))
-  (no_connect (at 90.805 191.135))
   (no_connect (at 85.725 153.035))
+  (no_connect (at 90.805 191.135))
+  (no_connect (at 80.645 153.035))
 
   (wire (pts (xy 57.15 168.275) (xy 57.15 170.815))
     (stroke (width 0) (type solid) (color 0 0 0 0))

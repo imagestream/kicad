@@ -11,6 +11,7 @@
       "vias": 1.0,
       "zones": 1.0
     },
+    "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -35,7 +36,6 @@
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -59,7 +59,7 @@
       33,
       34
     ],
-    "visible_layers": "3ffff_80000001"
+    "visible_layers": "003ffff_80000001"
   },
   "meta": {
     "filename": "FlatAnt4x4.kicad_prl",

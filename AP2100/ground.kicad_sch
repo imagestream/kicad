@@ -4027,8 +4027,8 @@
   (junction (at 227.965 58.42) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 227.965 83.82) (diameter 0.9144) (color 0 0 0 0))
 
-  (no_connect (at 127 156.21))
   (no_connect (at 127 153.67))
+  (no_connect (at 127 156.21))
 
   (wire (pts (xy 45.085 33.02) (xy 47.625 33.02))
     (stroke (width 0) (type solid) (color 0 0 0 0))

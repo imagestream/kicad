@@ -5904,12 +5904,12 @@
   (junction (at 360.045 162.56) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 376.555 177.8) (diameter 0.9144) (color 0 0 0 0))
 
-  (no_connect (at 250.825 179.705))
-  (no_connect (at 238.76 71.12))
-  (no_connect (at 217.805 184.785))
-  (no_connect (at 238.76 55.88))
   (no_connect (at 106.68 109.22))
+  (no_connect (at 238.76 71.12))
   (no_connect (at 217.805 177.165))
+  (no_connect (at 238.76 55.88))
+  (no_connect (at 250.825 179.705))
+  (no_connect (at 217.805 184.785))
 
   (wire (pts (xy 26.67 241.935) (xy 41.275 241.935))
     (stroke (width 0) (type solid) (color 0 0 0 0))

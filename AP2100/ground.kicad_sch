@@ -4520,7 +4520,7 @@
   (symbol (lib_id "AP2100-rescue:GND-Scott") (at 187.325 189.865 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "2f0c05a2-f2b5-4364-9b75-8761108c42d5")
-    (property "Reference" "#PWR0211" (id 0) (at 187.325 196.215 0)
+    (property "Reference" "#PWR069" (id 0) (at 187.325 196.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 187.198 193.6242 0)

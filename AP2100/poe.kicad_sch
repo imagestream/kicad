@@ -2,11 +2,13 @@
 
   (page 3 12)
 
-  (paper "A3")
+  (paper "USLedger")
 
   (title_block
     (title "AP2100")
-    (company "IS ImageStream Internet Solutions, Inc.")
+    (date "2020-10-06")
+    (rev "1")
+    (company "ISis ImageStream Internet Solutions, Inc.")
   )
 
   (lib_symbols
@@ -2630,6 +2632,7 @@
   (junction (at 290.195 183.515) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 292.735 144.78) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 293.37 183.515) (diameter 0.9144) (color 0 0 0 0))
+  (junction (at 298.45 69.215) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 300.99 144.78) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 300.99 183.515) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 321.945 144.78) (diameter 0.9144) (color 0 0 0 0))
@@ -2647,8 +2650,8 @@
   (junction (at 370.205 144.78) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 370.205 183.515) (diameter 0.9144) (color 0 0 0 0))
 
-  (no_connect (at 85.725 153.035))
   (no_connect (at 80.645 153.035))
+  (no_connect (at 85.725 153.035))
   (no_connect (at 90.805 191.135))
 
   (wire (pts (xy 48.26 45.085) (xy 52.07 45.085))
@@ -4361,6 +4364,9 @@
   (wire (pts (xy 293.37 183.515) (xy 300.99 183.515))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
+  (wire (pts (xy 298.45 69.215) (xy 302.26 69.215))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
   (wire (pts (xy 298.45 90.17) (xy 298.45 69.215))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
@@ -4501,7 +4507,7 @@
   (label "VOB" (at 274.955 74.295 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
   )
-  (label "VDC" (at 298.45 69.215 180)
+  (label "VDC" (at 302.26 69.215 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
   )
 

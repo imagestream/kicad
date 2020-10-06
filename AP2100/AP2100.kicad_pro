@@ -248,7 +248,7 @@
         0,
         1,
         0,
-        2,
+        1,
         2,
         2,
         2
@@ -349,16 +349,43 @@
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
-        "line_style": 0,
+        "line_style": 1,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "DDR4",
-        "nets": [],
+        "name": "100 Ohm Differential",
+        "nets": [
+          "Net-(IC9-Pad10)",
+          "Net-(IC9-Pad11)",
+          "Net-(IC9-Pad2)",
+          "Net-(IC9-Pad3)",
+          "Net-(IC9-Pad5)",
+          "Net-(IC9-Pad6)",
+          "Net-(IC9-Pad7)",
+          "Net-(IC9-Pad8)"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1016,
         "via_diameter": 0.4572,
         "via_drill": 0.2032,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 6.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90 Ohm Differential",
+        "nets": [],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6.0
       }
     ],
@@ -405,7 +432,7 @@
   },
   "sheets": [
     [
-      "6e1a999a-10b7-46df-a7a5-9183990537c0",
+      "a4ae7ecb-c7d4-4738-80aa-50b0540987e3",
       ""
     ],
     [
@@ -418,7 +445,7 @@
     ],
     [
       "84174f70-a69e-4416-8068-df0483023424",
-      "GND / MISC"
+      "GND / Mounting"
     ],
     [
       "e5841edc-dfa6-46d5-a2ac-72cca12ce1a2",
@@ -434,7 +461,7 @@
     ],
     [
       "00000000-0000-0000-0000-00005ed565ec",
-      "CPU Memory"
+      "DDR4 Memory"
     ],
     [
       "ec5ab78c-c7c8-4714-bc46-a12514bc0b51",

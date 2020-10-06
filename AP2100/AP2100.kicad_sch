@@ -5604,10 +5604,10 @@
       (reference "H8") (unit 1) (value "FlatAntenna") (footprint "Scott:MountingHole_4.4mm_Pad_TopOnly")
     )
     (path "/84174f70-a69e-4416-8068-df0483023424/eb42b34b-7609-45aa-8334-a17c19e1cab0"
-      (reference "U7") (unit 1) (value "LS1043ASE7KQB-Layerscape") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
+      (reference "U7") (unit 1) (value "LS1043ASE7xxx") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
     )
     (path "/84174f70-a69e-4416-8068-df0483023424/1e8c3648-676a-4dea-9310-a8825c8cd98f"
-      (reference "U7") (unit 15) (value "LS1043ASE7KQB-Layerscape") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
+      (reference "U7") (unit 15) (value "LS1043ASE7xxx") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
     )
     (path "/e5841edc-dfa6-46d5-a2ac-72cca12ce1a2/e2adbc11-a1a9-40e5-9e6b-c17e06ca0071"
       (reference "#PWR070") (unit 1) (value "GND") (footprint "")
@@ -6273,7 +6273,7 @@
       (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/463f0790-3778-4a7d-82e7-e77889429e9e/43c60a2a-d456-4323-a5b1-c238091c5f3d"
-      (reference "U7") (unit 5) (value "LS1043ASE7KQB-Layerscape") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
+      (reference "U7") (unit 5) (value "LS1043ASE7xxx") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
     )
     (path "/463f0790-3778-4a7d-82e7-e77889429e9e/1e8a87d8-3c7c-4a6d-852c-d54cd1b4e617"
       (reference "U9") (unit 1) (value "74LVC2G08") (footprint "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm")
@@ -6285,7 +6285,7 @@
       (reference "U10") (unit 1) (value "SA56004EDP,118") (footprint "Package_SO:TSSOP-8_3x3mm_P0.65mm")
     )
     (path "/463f0790-3778-4a7d-82e7-e77889429e9e/d2d1ca2d-15bb-4a86-b89e-9c31e3e2e711"
-      (reference "U11") (unit 1) (value "SP3232EBEY-L/TR\n") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
+      (reference "U11") (unit 1) (value "SP3232EBEY-L/TR") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
     )
     (path "/463f0790-3778-4a7d-82e7-e77889429e9e/0eab5fe0-ded4-46a6-a3ab-8d8b496c66f0"
       (reference "U12") (unit 1) (value "74LVC1G08") (footprint "Silicon-Standard:SC70")
@@ -6981,10 +6981,10 @@
       (reference "R168") (unit 1) (value "5.1") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/a9bfb55a-fc2b-4f82-a259-a118f76e1dde/b718e174-4a8b-454d-a522-c345c9f09b03"
-      (reference "U7") (unit 3) (value "LS1043ASE7KQB-Layerscape") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
+      (reference "U7") (unit 3) (value "LS1043ASE7xxx") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
     )
     (path "/a9bfb55a-fc2b-4f82-a259-a118f76e1dde/ec0712c3-4804-4210-ba05-3978b111c97c"
-      (reference "U7") (unit 4) (value "LS1043ASE7KQB-Layerscape") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
+      (reference "U7") (unit 4) (value "LS1043ASE7xxx") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
     )
     (path "/00000000-0000-0000-0000-00005ed565ec/d9c5f5e3-3ac3-4137-8f46-53bb0b68fed2"
       (reference "#PWR0162") (unit 1) (value "GND") (footprint "")
@@ -7290,7 +7290,7 @@
       (reference "TP4") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/00000000-0000-0000-0000-00005ed565ec/00000000-0000-0000-0000-00005ee50536"
-      (reference "U7") (unit 8) (value "LS1043ASE7KQB-Layerscape") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
+      (reference "U7") (unit 8) (value "LS1043ASE7xxx") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
     )
     (path "/ec5ab78c-c7c8-4714-bc46-a12514bc0b51/6f58f998-4531-42c7-ac52-92ea81ac4d7f"
       (reference "#PWR0177") (unit 1) (value "GND") (footprint "")
@@ -7404,10 +7404,10 @@
       (reference "R230") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/ec5ab78c-c7c8-4714-bc46-a12514bc0b51/e0617cbd-a756-4f28-9e8f-19123be677e3"
-      (reference "U7") (unit 6) (value "LS1043ASE7KQB-Layerscape") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
+      (reference "U7") (unit 6) (value "LS1043ASE7xxx") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
     )
     (path "/ec5ab78c-c7c8-4714-bc46-a12514bc0b51/8d0530fc-be72-47f3-9270-381b1020c22e"
-      (reference "U7") (unit 7) (value "LS1043ASE7KQB-Layerscape") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
+      (reference "U7") (unit 7) (value "LS1043ASE7xxx") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
     )
     (path "/ec5ab78c-c7c8-4714-bc46-a12514bc0b51/d6021b64-7518-4db5-bfc2-52746ae24af7"
       (reference "U21") (unit 1) (value "EMMC04G-M627-A01") (footprint "LIB_EMMC04G-M627:BGA153N50P14X14_1300X1150X100N")
@@ -7692,16 +7692,16 @@
       (reference "R298") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/0070bc45-a361-44d5-b996-1e9f3d407d13/fc206641-638d-4854-b039-4777b06257c2"
-      (reference "U7") (unit 2) (value "LS1043ASE7KQB-Layerscape") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
+      (reference "U7") (unit 2) (value "LS1043ASE7xxx") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
     )
     (path "/0070bc45-a361-44d5-b996-1e9f3d407d13/7bc0ae93-125e-424b-b1bb-20ee4e7eaed4"
-      (reference "U7") (unit 12) (value "LS1043ASE7KQB-Layerscape") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
+      (reference "U7") (unit 12) (value "LS1043ASE7xxx") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
     )
     (path "/0070bc45-a361-44d5-b996-1e9f3d407d13/e287ed2d-376b-4d80-bed4-9bb6748f570e"
-      (reference "U7") (unit 13) (value "LS1043ASE7KQB-Layerscape") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
+      (reference "U7") (unit 13) (value "LS1043ASE7xxx") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
     )
     (path "/0070bc45-a361-44d5-b996-1e9f3d407d13/820006cd-3f22-40e3-92a1-7581b977b709"
-      (reference "U7") (unit 14) (value "LS1043ASE7KQB-Layerscape") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
+      (reference "U7") (unit 14) (value "LS1043ASE7xxx") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
     )
     (path "/31d8aec0-7ebd-4b1b-a908-02656a233845/09702052-364e-4f90-931b-2043375f2c27"
       (reference "#PWR0195") (unit 1) (value "GND") (footprint "")
@@ -7869,13 +7869,13 @@
       (reference "R312") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/31d8aec0-7ebd-4b1b-a908-02656a233845/6867718f-e144-4a11-b302-2464f1c68bbf"
-      (reference "U7") (unit 9) (value "LS1043ASE7KQB-Layerscape") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
+      (reference "U7") (unit 9) (value "LS1043ASE7xxx") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
     )
     (path "/31d8aec0-7ebd-4b1b-a908-02656a233845/f20a8631-4764-46b2-b548-84c1e674f718"
-      (reference "U7") (unit 10) (value "LS1043ASE7KQB-Layerscape") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
+      (reference "U7") (unit 10) (value "LS1043ASE7xxx") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
     )
     (path "/31d8aec0-7ebd-4b1b-a908-02656a233845/a0d848f3-1fc2-4006-a046-f7d649528419"
-      (reference "U7") (unit 11) (value "LS1043ASE7KQB-Layerscape") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
+      (reference "U7") (unit 11) (value "LS1043ASE7xxx") (footprint "PLS1043ASE7QQA:BGA621C80P25X25_2100X2100X192N")
     )
     (path "/31d8aec0-7ebd-4b1b-a908-02656a233845/f46510ae-891d-40db-848f-93b1f7420107"
       (reference "U22") (unit 1) (value "74LVC2G04") (footprint "Silicon-Standard:SC70-6")

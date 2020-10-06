@@ -915,7 +915,6 @@
     )
   )
 
-
   (junction (at 25.4 139.065) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 25.4 154.305) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 31.115 154.305) (diameter 0.9144) (color 0 0 0 0))
@@ -6544,6 +6543,9 @@
     (property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=700-MAX17632BATE%2B" (id 11) (at 294.64 210.185 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
+    (property "PartsBoxID" "MAX17632BATE+" (id 4) (at 257.81 200.025 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
 
   (symbol (lib_id "AP2100-rescue:MPQ8634AGLE-P-MPQ8634AGLE-P") (at 276.86 54.61 0) (unit 1)
@@ -6648,6 +6650,9 @@
     )
     (property "Datasheet" "NXP SEMICONDUCTORS" (id 3) (at 90.17 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PartsBoxID" "MC34VR500V4ES" (id 4) (at 90.17 123.825 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
   )
 )

@@ -5339,62 +5339,47 @@
     (path "/00000000-0000-0000-0000-00005ed53141/00000000-0000-0000-0000-00005f475918"
       (reference "D6") (unit 1) (value "SM15T68CA") (footprint "Diode_SMD:D_SMC")
     )
-    (path "/00000000-0000-0000-0000-00005ed53141/00000000-0000-0000-0000-000061facea3"
-      (reference "D7") (unit 1) (value "T2") (footprint "LED_SMD:LED_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005ed53141/00000000-0000-0000-0000-000061e0d1ff"
-      (reference "D8") (unit 1) (value "T1") (footprint "LED_SMD:LED_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005ed53141/00000000-0000-0000-0000-000061ce374e"
-      (reference "D9") (unit 1) (value "T0") (footprint "LED_SMD:LED_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005ed53141/00000000-0000-0000-0000-0000621e7378"
-      (reference "D10") (unit 1) (value "AUX") (footprint "LED_SMD:LED_0603_1608Metric")
-    )
     (path "/00000000-0000-0000-0000-00005ed53141/00000000-0000-0000-0000-00006215b783"
-      (reference "D11") (unit 1) (value "STPS4S200S") (footprint "LIB_STPS4S200S:DIOM8059X265N")
+      (reference "D7") (unit 1) (value "STPS4S200S") (footprint "LIB_STPS4S200S:DIOM8059X265N")
     )
     (path "/00000000-0000-0000-0000-00005ed53141/00000000-0000-0000-0000-000060b8ce05"
-      (reference "D12") (unit 1) (value "BAV70") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "D8") (unit 1) (value "BAV70") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00005ed53141/18dd0b6b-12a2-42d1-92d8-c03183103c79"
-      (reference "D13") (unit 1) (value "SMAJ58A") (footprint "Diode_SMD:D_SMA")
+      (reference "D9") (unit 1) (value "SMAJ58A") (footprint "Diode_SMD:D_SMA")
     )
     (path "/00000000-0000-0000-0000-00005ed53141/00000000-0000-0000-0000-00006135787b"
-      (reference "D14") (unit 1) (value "SMAJ58A") (footprint "Diode_SMD:D_SMA")
+      (reference "D10") (unit 1) (value "SMAJ58A") (footprint "Diode_SMD:D_SMA")
     )
     (path "/00000000-0000-0000-0000-00005ed53141/014b73f4-8780-4bfb-ba10-cbd0d552b623"
-      (reference "D15") (unit 1) (value "BAS16J") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D11") (unit 1) (value "BAS16J") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005ed53141/de3cdbe8-7fc4-43f7-bd48-a0b1dfba3d7c"
-      (reference "D16") (unit 1) (value "BAS16J") (footprint "Diode_SMD:D_SOD-323")
-    )
-    (path "/00000000-0000-0000-0000-00005ed53141/b072aea4-d910-4c16-ab4a-dc79d9791efd"
-      (reference "D17") (unit 1) (value "+12V") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D12") (unit 1) (value "BAS16J") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005ed53141/a6295029-bff5-414e-a0a1-3092beec2d6c"
-      (reference "D18") (unit 1) (value "BAS16J") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D13") (unit 1) (value "BAS16J") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005ed53141/f52bf191-d994-42d8-9fcd-72813fe029b0"
-      (reference "D19") (unit 1) (value "BAS16J") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D14") (unit 1) (value "BAS16J") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005ed53141/a100865a-60a7-423f-a953-4c888e38e91d"
-      (reference "D20") (unit 1) (value "BAS16J") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D15") (unit 1) (value "BAS16J") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005ed53141/792b2075-7f8f-4987-ab0f-1757bbb86a2d"
-      (reference "D21") (unit 1) (value "BZX84C10") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "D16") (unit 1) (value "BZX84C10") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00005ed53141/6c96e747-8b9c-467f-9313-18bf99458391"
-      (reference "D22") (unit 1) (value "BZX84C10") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "D17") (unit 1) (value "BZX84C10") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00005ed53141/17433196-1280-4b16-96e9-6937f34ac37a"
-      (reference "D23") (unit 1) (value "BAS70") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D18") (unit 1) (value "BAS70") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005ed53141/f0a783b7-b902-4218-87b9-f79c866390f0"
-      (reference "D24") (unit 1) (value "BAS70") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D19") (unit 1) (value "BAS70") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005ed53141/73a4cbd3-7da9-41ee-9d2a-bb6aab044a06"
-      (reference "D25") (unit 1) (value "BAS70") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D20") (unit 1) (value "BAS70") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-00005ed53141/00000000-0000-0000-0000-00005f5f9489"
       (reference "FB1") (unit 1) (value "220 OHM") (footprint "Inductor_SMD:L_0805_2012Metric")
@@ -5428,6 +5413,21 @@
     )
     (path "/00000000-0000-0000-0000-00005ed53141/7be8065e-10a1-4924-8cb7-76465b352c6d"
       (reference "L10") (unit 1) (value "10uH") (footprint "LIB_7443631000:WE-HCF_201322")
+    )
+    (path "/00000000-0000-0000-0000-00005ed53141/00000000-0000-0000-0000-000061facea3"
+      (reference "LED1") (unit 1) (value "T2") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005ed53141/00000000-0000-0000-0000-000061e0d1ff"
+      (reference "LED2") (unit 1) (value "T1") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005ed53141/00000000-0000-0000-0000-000061ce374e"
+      (reference "LED3") (unit 1) (value "T0") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005ed53141/00000000-0000-0000-0000-0000621e7378"
+      (reference "LED4") (unit 1) (value "AUX") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005ed53141/b072aea4-d910-4c16-ab4a-dc79d9791efd"
+      (reference "LED5") (unit 1) (value "+12V") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ed53141/e3c0de5f-1349-4755-96b5-c25e17195239"
       (reference "Q1") (unit 1) (value "BSC190N15NS3GATMA1") (footprint "LIB_BSC190N15NS3GATMA1:PG-TDSON-8_1")
@@ -6051,16 +6051,16 @@
       (reference "J4") (unit 1) (value "RJ45") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
     )
     (path "/463f0790-3778-4a7d-82e7-e77889429e9e/ad44062c-9e5d-46b1-aeeb-6827b0df0ce4"
-      (reference "LED1") (unit 1) (value "PWRLED") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "LED6") (unit 1) (value "PWRLED") (footprint "LED_SMD:LED_0805_2012Metric")
     )
     (path "/463f0790-3778-4a7d-82e7-e77889429e9e/883edf12-b581-43ba-aa5b-9be913fd1800"
-      (reference "LED2") (unit 1) (value "LED1") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "LED7") (unit 1) (value "WIFI1_LED") (footprint "LED_SMD:LED_0805_2012Metric")
     )
     (path "/463f0790-3778-4a7d-82e7-e77889429e9e/1e29ad21-acf1-4cd3-b4bc-cebb34710cdd"
-      (reference "LED3") (unit 1) (value "LED2") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "LED8") (unit 1) (value "WIFI2_LED") (footprint "LED_SMD:LED_0805_2012Metric")
     )
     (path "/463f0790-3778-4a7d-82e7-e77889429e9e/d8f05330-0e88-4812-83f5-ea7be5702db1"
-      (reference "LED4") (unit 1) (value "STATUS LED") (footprint "LED_SMD:LED_Cree-PLCC4_2x2mm_CW")
+      (reference "LED9") (unit 1) (value "STATUS LED") (footprint "LED_SMD:LED_Cree-PLCC4_2x2mm_CW")
     )
     (path "/463f0790-3778-4a7d-82e7-e77889429e9e/2fe6aa37-3db1-4159-879b-6536644238a5"
       (reference "R88") (unit 1) (value "4.7K") (footprint "Resistor_SMD:R_0402_1005Metric")

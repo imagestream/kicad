@@ -1,0 +1,185 @@
+{
+"DesignRules": [
+{
+"Layers": "Outer",
+"MinLineWidth": 0.105,
+"PadToPad": 0.1,
+"PadToTrack": 0.1,
+"RegionToRegion": 0.508,
+"TrackToRegion": 0.508,
+"TrackToTrack": 0.1
+},
+{
+"Layers": "Inner",
+"MinLineWidth": 0.105,
+"PadToPad": 0.1,
+"PadToTrack": 0.1,
+"RegionToRegion": 0.508,
+"TrackToRegion": 0.508,
+"TrackToTrack": 0.1
+}
+],
+"FilesAttributes": [
+{
+"FileFunction": "Copper,L1,Top",
+"FilePolarity": "Positive",
+"Path": "AP2100-power-proto-F_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L2,Inr",
+"FilePolarity": "Positive",
+"Path": "AP2100-power-proto-In1_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L3,Inr",
+"FilePolarity": "Positive",
+"Path": "AP2100-power-proto-In2_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L4,Inr",
+"FilePolarity": "Positive",
+"Path": "AP2100-power-proto-In3_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L5,Inr",
+"FilePolarity": "Positive",
+"Path": "AP2100-power-proto-In4_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L6,Bot",
+"FilePolarity": "Positive",
+"Path": "AP2100-power-proto-B_Cu.gbr"
+},
+{
+"FileFunction": "SolderPaste,Top",
+"FilePolarity": "Positive",
+"Path": "AP2100-power-proto-F_Paste.gbr"
+},
+{
+"FileFunction": "SolderPaste,Bot",
+"FilePolarity": "Positive",
+"Path": "AP2100-power-proto-B_Paste.gbr"
+},
+{
+"FileFunction": "Legend,Top",
+"FilePolarity": "Positive",
+"Path": "AP2100-power-proto-F_SilkS.gbr"
+},
+{
+"FileFunction": "Legend,Bot",
+"FilePolarity": "Positive",
+"Path": "AP2100-power-proto-B_SilkS.gbr"
+},
+{
+"FileFunction": "SolderMask,Top",
+"FilePolarity": "Negative",
+"Path": "AP2100-power-proto-F_Mask.gbr"
+},
+{
+"FileFunction": "SolderMask,Bot",
+"FilePolarity": "Negative",
+"Path": "AP2100-power-proto-B_Mask.gbr"
+},
+{
+"FileFunction": "Profile",
+"FilePolarity": "Positive",
+"Path": "AP2100-power-proto-Edge_Cuts.gbr"
+}
+],
+"GeneralSpecs": {
+"BoardThickness": 1.6,
+"LayerNumber": 6,
+"ProjectId": {
+"GUID": "41503231-3030-42e6-9b69-6361645f7063",
+"Name": "AP2100",
+"Revision": "rev?"
+},
+"Size": {
+"X": 150.1,
+"Y": 150.1
+}
+},
+"Header": {
+"CreationDate": "2020-06-01T18:26:28-05:00",
+"GenerationSoftware": {
+"Application": "Pcbnew",
+"Vendor": "KiCad",
+"Version": "5.1.6-c6e7f7d~86~ubuntu18.04.1"
+}
+},
+"MaterialStackup": [
+{
+"Notes": "Layer F.SilkS",
+"Type": "Legend"
+},
+{
+"Notes": "Layer F.Paste",
+"Type": "SolderPaste"
+},
+{
+"Notes": "Layer F.Mask",
+"Type": "SolderMask"
+},
+{
+"Notes": "Layer F.Cu",
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Notes": "Layers L1/L2",
+"Type": "Dielectric"
+},
+{
+"Notes": "Layer In1.Cu",
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Notes": "Layers L2/L3",
+"Type": "Dielectric"
+},
+{
+"Notes": "Layer In2.Cu",
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Notes": "Layers L3/L4",
+"Type": "Dielectric"
+},
+{
+"Notes": "Layer In3.Cu",
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Notes": "Layers L4/L5",
+"Type": "Dielectric"
+},
+{
+"Notes": "Layer In4.Cu",
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Notes": "Layers L5/L6",
+"Type": "Dielectric"
+},
+{
+"Notes": "Layer B.Cu",
+"Type": "Copper"
+},
+{
+"Notes": "Layer B.Mask",
+"Type": "SolderMask"
+},
+{
+"Notes": "Layer B.Paste",
+"Type": "SolderPaste"
+},
+{
+"Notes": "Layer B.SilkS",
+"Type": "Legend"
+}
+]
+}

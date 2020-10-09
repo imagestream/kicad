@@ -304,6 +304,7 @@
       "global_label_dangling": "error",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "lib_symbol_issues": "warning",
       "multiple_net_names": "error",
       "net_not_bus_member": "error",
       "no_connect_connected": "error",
@@ -367,7 +368,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1016,
         "via_diameter": 0.4572,
-        "via_drill": 0.2032,
+        "via_drill": 0.4,
         "wire_width": 6.0
       },
       {
@@ -414,6 +415,10 @@
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
@@ -432,7 +437,7 @@
   },
   "sheets": [
     [
-      "9b6efbe9-647d-4c96-85e1-403006e51a9a",
+      "ce4c16ed-d976-4018-8ef5-55114cd6504d",
       ""
     ],
     [

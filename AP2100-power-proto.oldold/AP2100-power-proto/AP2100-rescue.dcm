@@ -1,0 +1,35 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0826-1X1T-GH-F-0826-1X1T-GH-F
+F Bel Component
+$ENDCMP
+#
+$CMP EEEFK2A220P-EEEFK2A220P
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf
+$ENDCMP
+#
+$CMP EEEFK2A330P-EEEFK2A330P
+F https://componentsearchengine.com/Datasheets/2/EEEFK2A330P.pdf
+$ENDCMP
+#
+$CMP FDS86242-FDS86242
+F http://docs-emea.rs-online.com/webdocs/10c9/0900766b810c9794.pdf
+$ENDCMP
+#
+$CMP HMHA2801AR2-HMHA2801AR2
+F http://uk.rs-online.com/web/p/products/8023253
+$ENDCMP
+#
+$CMP PM8804TR-PM8804TR
+F https://www.st.com/resource/en/datasheet/pm8804.pdf
+$ENDCMP
+#
+$CMP PM8805TR-PM8805TR
+F https://www.st.com/resource/en/datasheet/pm8805.pdf
+$ENDCMP
+#
+$CMP STPS4S200S-STPS4S200S
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/f1/ca/76/fb/56/90/40/1c/DM00136818.pdf/files/DM00136818.pdf/jcr:content/translations/en.DM00136818.pdf
+$ENDCMP
+#
+#End Doc Library

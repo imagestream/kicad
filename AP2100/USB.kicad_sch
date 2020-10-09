@@ -4661,7 +4661,7 @@
       (property "ki_description" "Dual NOT Gate, Low-Voltage CMOS" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "SG-*\nSOT*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "SG-* SOT*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "74LVC2G04_0_1"
@@ -4723,7 +4723,7 @@
       (property "ki_description" "Dual NOT Gate, Low-Voltage CMOS" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "SG-*\nSOT*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "SG-* SOT*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "74LVC2G04_1_0_1"

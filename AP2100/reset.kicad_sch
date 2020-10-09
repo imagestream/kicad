@@ -4050,7 +4050,7 @@
       (property "ki_description" "RJ connector, 8P8C (8 positions 8 connected)" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "8P8C*\nRJ31*\nRJ32*\nRJ33*\nRJ34*\nRJ35*\nRJ41*\nRJ45*\nRJ49*\nRJ61*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "8P8C* RJ31* RJ32* RJ33* RJ34* RJ35* RJ41* RJ45* RJ49* RJ61*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "RJ45_0_1"
@@ -4193,7 +4193,7 @@
       (property "ki_description" "test point" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Pin*\nTest*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "Pin* Test*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "TestPoint_0_1"
@@ -4340,7 +4340,7 @@
       (property "ki_description" "Light emitting diode" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "LED*\nLED_SMD:*\nLED_THT:*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "LED_0_1"
@@ -4418,7 +4418,7 @@
       (property "ki_description" "RGB LED, red/green/blue/anode" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "LED*\nLED_SMD:*\nLED_THT:*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "LED_RGBA_0_1"
@@ -4723,7 +4723,7 @@
       (property "ki_description" "3.0V to 5.5V, Low-Power, up to 1Mbps, True RS-232 Transceivers Using Four 0.1μF External Capacitors" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "SOIC*P1.27mm*\nDIP*W7.62mm*\nTSSOP*4.4x5mm*P0.65mm*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "SOIC*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "MAX3232_0_1"
@@ -5115,7 +5115,7 @@
       (property "ki_description" "Single Buffer Gate w/ Open Drain, Low-Voltage CMOS" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "SOT*\nSG-*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "SOT* SG-*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "74LVC1G07_0_1"
@@ -5184,7 +5184,7 @@
       (property "ki_description" "Single Buffer Gate w/ Open Drain, Low-Voltage CMOS" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "SOT*\nSG-*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "SOT* SG-*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "74LVC1G07_1_0_1"
@@ -5253,7 +5253,7 @@
       (property "ki_description" "Single Buffer Gate w/ Open Drain, Low-Voltage CMOS" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "SOT*\nSG-*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "SOT* SG-*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "74LVC1G07_2_0_1"
@@ -5322,7 +5322,7 @@
       (property "ki_description" "Single Buffer Gate w/ Open Drain, Low-Voltage CMOS" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "SOT*\nSG-*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "SOT* SG-*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "74LVC1G07_3_0_1"
@@ -5391,7 +5391,7 @@
       (property "ki_description" "Single AND Gate, Low-Voltage CMOS" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "SOT*\nSG-*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "SOT* SG-*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "74LVC1G08_0_1"
@@ -5450,7 +5450,7 @@
       (property "ki_description" "Single AND Gate, Low-Voltage CMOS" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "SOT*\nSG-*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "SOT* SG-*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "74LVC1G08_1_0_1"
@@ -5509,7 +5509,7 @@
       (property "ki_description" "Single AND Gate, Low-Voltage CMOS" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "SOT*\nSG-*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "SOT* SG-*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "74LVC1G08_2_0_1"
@@ -5568,7 +5568,7 @@
       (property "ki_description" "Single AND Gate, Low-Voltage CMOS" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "SOT*\nSG-*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "SOT* SG-*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "74LVC1G08_3_0_1"
@@ -5627,7 +5627,7 @@
       (property "ki_description" "Dual AND Gate, Low-Voltage CMOS" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "SSOP*\nVSSOP*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "SSOP* VSSOP*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "74LVC2G08_0_1"
@@ -5700,7 +5700,7 @@
       (property "ki_description" "Dual AND Gate, Low-Voltage CMOS" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "SSOP*\nVSSOP*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "SSOP* VSSOP*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "74LVC2G08_1_0_1"
@@ -5906,12 +5906,12 @@
   (junction (at 365.76 154.305) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 381.635 167.005) (diameter 0.9144) (color 0 0 0 0))
 
+  (no_connect (at 256.54 171.45))
+  (no_connect (at 223.52 176.53))
   (no_connect (at 244.475 62.865))
   (no_connect (at 244.475 47.625))
-  (no_connect (at 223.52 176.53))
   (no_connect (at 223.52 168.91))
   (no_connect (at 112.395 100.965))
-  (no_connect (at 256.54 171.45))
 
   (wire (pts (xy 32.385 233.68) (xy 46.99 233.68))
     (stroke (width 0) (type solid) (color 0 0 0 0))

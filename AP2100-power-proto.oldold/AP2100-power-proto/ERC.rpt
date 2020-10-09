@@ -1,0 +1,39 @@
+ERC report (Mon 05 Oct 2020 05:03:53 PM CDT, Encoding UTF8)
+
+***** Sheet /
+
+***** Sheet /Power/
+ErrType(21): Pins of type Power output and Power output are connected Severity: error (excluded)
+    @(4.350 in, 5.875 in): Symbol U3 [MC34VR500V4ES] Pin 36 [LX3_2, Power output, Line]
+    @(4.350 in, 5.775 in): Symbol U3 [MC34VR500V4ES] Pin 35 [LX3_1, Power output, Line]
+ErrType(21): Pins of type Power output and Power output are connected Severity: error (excluded)
+    @(2.750 in, 5.975 in): Symbol U3 [MC34VR500V4ES] Pin 9 [LX1_2, Power output, Line]
+    @(2.750 in, 6.075 in): Symbol U3 [MC34VR500V4ES] Pin 11 [LX1_3, Power output, Line]
+ErrType(21): Pins of type Power output and Power output are connected Severity: error (excluded)
+    @(2.750 in, 5.975 in): Symbol U3 [MC34VR500V4ES] Pin 9 [LX1_2, Power output, Line]
+    @(2.750 in, 5.875 in): Symbol U3 [MC34VR500V4ES] Pin 8 [LX1_1, Power output, Line]
+ErrType(21): Pins of type Power output and Power output are connected Severity: error (excluded)
+    @(2.750 in, 6.075 in): Symbol U3 [MC34VR500V4ES] Pin 11 [LX1_3, Power output, Line]
+    @(2.750 in, 5.875 in): Symbol U3 [MC34VR500V4ES] Pin 8 [LX1_1, Power output, Line]
+
+***** Sheet /PoE Power/
+
+***** Sheet /GND / MISC/
+
+***** Sheet /Clocks/
+
+***** Sheet /Reset/
+
+***** Sheet /CPU Power/
+
+***** Sheet /CPU Memory/
+
+***** Sheet /Flash / eMMC/
+
+***** Sheet /mPCIe/
+
+***** Sheet /SerDes / RGMII Ethernet/
+
+***** Sheet /USB/
+
+ ** ERC messages: 4  Errors 4  Warnings 0

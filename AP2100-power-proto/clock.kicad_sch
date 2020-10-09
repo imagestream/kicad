@@ -696,15 +696,15 @@
   (junction (at 257.175 61.595) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 281.305 46.355) (diameter 0.9144) (color 0 0 0 0))
 
-  (no_connect (at 204.47 81.915))
   (no_connect (at 204.47 130.175))
   (no_connect (at 204.47 99.695))
+  (no_connect (at 204.47 127.635))
+  (no_connect (at 204.47 97.155))
   (no_connect (at 204.47 84.455))
   (no_connect (at 204.47 74.295))
   (no_connect (at 204.47 76.835))
+  (no_connect (at 204.47 81.915))
   (no_connect (at 132.715 213.36))
-  (no_connect (at 204.47 97.155))
-  (no_connect (at 204.47 127.635))
 
   (wire (pts (xy 78.105 106.045) (xy 78.105 111.125))
     (stroke (width 0) (type solid) (color 0 0 0 0))

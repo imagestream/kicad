@@ -3982,7 +3982,7 @@
       (property "ki_description" "Jumper, normally open, small symbol" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "SolderJumper*Open*\nJumper*\nTestPoint*2Pads*\nTestPoint*Bridge*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "SolderJumper*Open* Jumper* TestPoint*2Pads* TestPoint*Bridge*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "Jumper_NO_Small_0_1"
@@ -4017,7 +4017,7 @@
       (property "ki_description" "Inductor" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Choke_*\n*Coil*\nInductor_*\nL_*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "L_0_1"

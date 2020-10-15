@@ -109,19 +109,19 @@
   (junction (at 102.87 100.965) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 107.315 99.06) (diameter 0.9144) (color 0 0 0 0))
 
-  (no_connect (at 71.12 166.37))
-  (no_connect (at 71.12 164.465))
-  (no_connect (at 71.12 176.53))
-  (no_connect (at 71.12 169.545))
-  (no_connect (at 71.12 174.625))
   (no_connect (at 71.12 171.45))
+  (no_connect (at 71.12 169.545))
+  (no_connect (at 71.12 176.53))
   (no_connect (at 71.12 178.435))
-  (no_connect (at 71.12 180.34))
-  (no_connect (at 71.12 187.96))
   (no_connect (at 71.12 182.245))
-  (no_connect (at 116.205 20.955))
+  (no_connect (at 71.12 174.625))
+  (no_connect (at 71.12 166.37))
+  (no_connect (at 71.12 187.96))
   (no_connect (at 71.12 186.055))
+  (no_connect (at 71.12 164.465))
   (no_connect (at 71.12 184.15))
+  (no_connect (at 71.12 180.34))
+  (no_connect (at 116.205 20.955))
 
   (wire (pts (xy 71.12 69.85) (xy 116.205 69.85))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -5164,9 +5164,6 @@
     (path "/00000000-0000-0000-0000-00005ed53141/00000000-0000-0000-0000-00005f319638"
       (reference "#PWR055") (unit 1) (value "GNDPWR") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005ed53141/7083ff74-e342-4680-87f9-ddc31dde4daa"
-      (reference "#PWR056") (unit 1) (value "Chassis") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005ed53141/00000000-0000-0000-0000-00006012cb00"
       (reference "#PWR057") (unit 1) (value "GNDPWR") (footprint "")
     )
@@ -5245,9 +5242,6 @@
     (path "/00000000-0000-0000-0000-00005ed53141/365c4198-d278-4633-b08e-9d2990544a2b"
       (reference "C92") (unit 1) (value "33uF") (footprint "LIB_EEEFK2A330P:CAPAE1030X1050N")
     )
-    (path "/00000000-0000-0000-0000-00005ed53141/5b1cb21f-254a-486f-a44a-676b49fe6db2"
-      (reference "C93") (unit 1) (value "2.2nF") (footprint "Capacitor_SMD:C_1812_4532Metric")
-    )
     (path "/00000000-0000-0000-0000-00005ed53141/715cec2d-156e-488e-aed0-4e51fc26c0b7"
       (reference "C94") (unit 1) (value "2200pF") (footprint "Capacitor_SMD:C_1812_4532Metric")
     )
@@ -5274,9 +5268,6 @@
     )
     (path "/00000000-0000-0000-0000-00005ed53141/8aa5bb61-4b84-4520-b310-37624f9b596d"
       (reference "C102") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005ed53141/5679f3ac-442e-4a57-be44-19be8227a87d"
-      (reference "C103") (unit 1) (value "2.2nF") (footprint "Capacitor_SMD:C_1812_4532Metric")
     )
     (path "/00000000-0000-0000-0000-00005ed53141/00000000-0000-0000-0000-000060ebacf4"
       (reference "C104") (unit 1) (value "1.5nF") (footprint "Capacitor_SMD:C_0603_1608Metric")

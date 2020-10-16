@@ -4070,8 +4070,8 @@
   (junction (at 330.835 137.795) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 338.455 137.795) (diameter 0.9144) (color 0 0 0 0))
 
-  (no_connect (at 233.68 194.31))
   (no_connect (at 233.68 191.77))
+  (no_connect (at 233.68 194.31))
 
   (wire (pts (xy 76.2 53.975) (xy 76.2 56.515))
     (stroke (width 0) (type solid) (color 0 0 0 0))

@@ -5906,11 +5906,11 @@
   (junction (at 365.76 154.305) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 381.635 167.005) (diameter 0.9144) (color 0 0 0 0))
 
+  (no_connect (at 244.475 47.625))
   (no_connect (at 112.395 100.965))
+  (no_connect (at 223.52 168.91))
   (no_connect (at 223.52 176.53))
   (no_connect (at 244.475 62.865))
-  (no_connect (at 244.475 47.625))
-  (no_connect (at 223.52 168.91))
   (no_connect (at 256.54 171.45))
 
   (wire (pts (xy 32.385 233.68) (xy 46.99 233.68))

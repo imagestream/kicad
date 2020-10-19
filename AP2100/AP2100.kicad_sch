@@ -5433,7 +5433,7 @@
       (reference "LED5") (unit 1) (value "+12V") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ed53141/e3c0de5f-1349-4755-96b5-c25e17195239"
-      (reference "Q1") (unit 1) (value "BSC190N15NS3GATMA1") (footprint "Package_TO_SOT_SMD:TDSON-8-1")
+      (reference "Q1") (unit 1) (value "BSC190N15NS3GATMA1") (footprint "Scott:TRANS_BSC100N06LS3GATMA1")
     )
     (path "/00000000-0000-0000-0000-00005ed53141/ca6b24e0-6c7f-41b8-8e95-aa8ff8480279"
       (reference "Q2") (unit 1) (value "PBSS4240T") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -6054,7 +6054,7 @@
       (reference "IC5") (unit 1) (value "PCF2129T_2,518") (footprint "SOIC127P1032X265-16N")
     )
     (path "/463f0790-3778-4a7d-82e7-e77889429e9e/483cb1f1-5f2c-4e1e-9828-950ab9aed478"
-      (reference "J3") (unit 1) (value "Conn_ARM_JTAG_SWD_10") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD")
+      (reference "J3") (unit 1) (value "Conn_ARM_JTAG_SWD_10") (footprint "Connector:Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical")
     )
     (path "/463f0790-3778-4a7d-82e7-e77889429e9e/2eb5e1be-bc10-4b0e-ab35-e47914911533"
       (reference "J4") (unit 1) (value "RJ45") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
@@ -7410,10 +7410,10 @@
       (reference "#PWR0185") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ee769e0/00000000-0000-0000-0000-00005ee8039d"
-      (reference "J5") (unit 1) (value "Bus_PCI_Express_Mini") (footprint "Connector_PCBEdge:BUS_PCI_Express_Mini_Full")
+      (reference "J5") (unit 1) (value "Bus_PCI_Express_Mini") (footprint "Scott:BUS_PCI_Express_Mini_Full")
     )
     (path "/00000000-0000-0000-0000-00005ee769e0/d96cb5e6-9369-4b5a-aa90-28a49deed6f7"
-      (reference "J6") (unit 1) (value "Bus_PCI_Express_Mini") (footprint "Connector_PCBEdge:BUS_PCI_Express_Mini_Full")
+      (reference "J6") (unit 1) (value "Bus_PCI_Express_Mini") (footprint "Scott:BUS_PCI_Express_Mini_Full")
     )
     (path "/00000000-0000-0000-0000-00005ee769e0/30a46d29-6f9d-456d-98f4-ddd6636806ed"
       (reference "JP4") (unit 1) (value "Jumper_2_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")

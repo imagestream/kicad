@@ -13,7 +13,7 @@
   )
 
   (lib_symbols
-    (symbol "CM4IO:74LVC1G07_copy" (in_bom yes) (on_board yes)
+    (symbol "AP2100:74LVC1G07_copy" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -2.54 3.81 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -82,7 +82,7 @@
         )
       )
     )
-    (symbol "CM4IO:EMC2301" (in_bom yes) (on_board yes)
+    (symbol "AP2100:EMC2301" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -7.62 13.97 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -657,8 +657,8 @@
   (junction (at 213.36 49.53) (diameter 1.016) (color 0 0 0 0))
   (junction (at 213.36 62.23) (diameter 1.016) (color 0 0 0 0))
 
-  (no_connect (at 138.43 135.89))
   (no_connect (at 138.43 138.43))
+  (no_connect (at 138.43 135.89))
 
   (wire (pts (xy 38.1 44.45) (xy 46.228 44.45))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -1384,7 +1384,7 @@
     )
   )
 
-  (symbol (lib_id "CM4IO:74LVC1G07_copy") (at 227.33 62.23 0) (unit 1)
+  (symbol (lib_id "AP2100:74LVC1G07_copy") (at 227.33 62.23 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005e366722")
     (property "Reference" "U14" (id 0) (at 230.505 55.88 0))
@@ -1412,7 +1412,7 @@
     )
   )
 
-  (symbol (lib_id "CM4IO:EMC2301") (at 130.81 146.05 0) (unit 1)
+  (symbol (lib_id "AP2100:EMC2301") (at 130.81 146.05 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d0d0094")
     (property "Reference" "U11" (id 0) (at 128.905 129.159 0))

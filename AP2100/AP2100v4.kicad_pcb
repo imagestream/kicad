@@ -871,7 +871,7 @@
     )
   )
 
-  (module "CM4IO:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal" (layer "F.Cu") (tedit 5EBC289E) (tstamp 00000000-0000-0000-0000-00005d2e034d)
+  (module "AP2100:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal" (layer "F.Cu") (tedit 5EBC289E) (tstamp 00000000-0000-0000-0000-00005d2e034d)
     (at 90.5 75 180)
     (descr "Molex FH12, FFC/FPC connector, FH12-22S-0.5SH, 22 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator")
     (tags "connector Hirose  top entry")
@@ -971,14 +971,14 @@
       (net 172 "/+3.3v") (pinfunction "Pin_22") (tstamp f9eefa8f-1e5a-4ca5-9d9c-01150f569d57))
     (pad "MP" smd rect (at 7.15 1.4 180) (size 1.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 106de9ea-aa6f-45a1-b412-2f07ca97222a))
     (pad "MP" smd rect (at -7.15 1.4 180) (size 1.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6d9e35d5-792c-42bc-9824-d2b9fad42806))
-    (model "./CM4IO.3dshapes/FH12-22S-0.5SHa.stp"
+    (model "./AP2100.3dshapes/FH12-22S-0.5SHa.stp"
       (offset (xyz 16.5 -10.6 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 90 180))
     )
   )
 
-  (module "CM4IO:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal" (layer "F.Cu") (tedit 5EBC289E) (tstamp 00000000-0000-0000-0000-00005d2e03bf)
+  (module "AP2100:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal" (layer "F.Cu") (tedit 5EBC289E) (tstamp 00000000-0000-0000-0000-00005d2e03bf)
     (at 126.5 75 180)
     (descr "Molex FH12, FFC/FPC connector, FH12-22S-0.5SH, 22 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator")
     (tags "connector Hirose  top entry")
@@ -1078,7 +1078,7 @@
       (net 172 "/+3.3v") (pinfunction "Pin_22") (tstamp f9eefa8f-1e5a-4ca5-9d9c-01150f569d57))
     (pad "MP" smd rect (at 7.15 1.4 180) (size 1.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 106de9ea-aa6f-45a1-b412-2f07ca97222a))
     (pad "MP" smd rect (at -7.15 1.4 180) (size 1.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6d9e35d5-792c-42bc-9824-d2b9fad42806))
-    (model "./CM4IO.3dshapes/FH12-22S-0.5SHa.stp"
+    (model "./AP2100.3dshapes/FH12-22S-0.5SHa.stp"
       (offset (xyz 16.5 -10.6 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 90 180))
@@ -2900,7 +2900,7 @@
     )
   )
 
-  (module "CM4IO:USB_Micro-B_EDAC_UCON00686" locked (layer "F.Cu") (tedit 5EBC20AD) (tstamp 00000000-0000-0000-0000-00005d2fec1a)
+  (module "AP2100:USB_Micro-B_EDAC_UCON00686" locked (layer "F.Cu") (tedit 5EBC20AD) (tstamp 00000000-0000-0000-0000-00005d2fec1a)
     (at 187 158.3)
     (descr "Micro USB Type B 10103594-0001LF, http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf")
     (tags "USB USB_B USB_micro USB_OTG")
@@ -2987,7 +2987,7 @@
       (net 1 "GND") (pinfunction "Shield") (tstamp d73a316c-3d80-4ec7-92b9-76f55ac788de))
     (pad "6" smd rect (at 2.9875 -1.7) (size 1.825 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "Shield") (tstamp fbd025b0-7d86-473d-9382-e7fc87df39ac))
-    (model "./CM4IO.3dshapes/10103594.stp"
+    (model "./AP2100.3dshapes/10103594.stp"
       (offset (xyz 0 1.35 2.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 180))
@@ -3284,7 +3284,7 @@
     )
   )
 
-  (module "CM4IO:BarrelJack_Horizontal" (layer "F.Cu") (tedit 5EF86901) (tstamp 00000000-0000-0000-0000-00005d39dcb8)
+  (module "AP2100:BarrelJack_Horizontal" (layer "F.Cu") (tedit 5EF86901) (tstamp 00000000-0000-0000-0000-00005d39dcb8)
     (at 232.25 147.7 90)
     (descr "DC Barrel Jack")
     (tags "Power Jack")
@@ -3342,14 +3342,14 @@
       (net 1 "GND") (tstamp 2c5611bf-1068-4220-8774-4234768f031d))
     (pad "3" thru_hole roundrect (at -3 4.8 90) (size 5 2.8) (drill oval 3 0.8) (layers *.Cu *.Mask) (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp be6da788-4b46-48f8-93d4-2cf95c79c0f6))
-    (model "./CM4IO.3dshapes/CUI_DEVICES_PJ-102AH.step"
+    (model "./AP2100.3dshapes/CUI_DEVICES_PJ-102AH.step"
       (offset (xyz -13.7 0 6.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
     )
   )
 
-  (module "CM4IO:TRJG0926HENL" locked (layer "F.Cu") (tedit 5EBC1CD1) (tstamp 00000000-0000-0000-0000-00005d3e3e9d)
+  (module "AP2100:TRJG0926HENL" locked (layer "F.Cu") (tedit 5EBC1CD1) (tstamp 00000000-0000-0000-0000-00005d3e3e9d)
     (at 153 150.5)
     (descr "https://p.globalsources.com/IMAGES/PDT/SPEC/690/K1160305690.pdf")
     (tags "RJ45 Magjack")
@@ -3440,14 +3440,14 @@
       (net 1 "GND") (pinfunction "SHIELD") (tstamp 290360c5-e72c-49c7-b357-0ee46eebcdd5))
     (pad "20" thru_hole circle (at 7.875 -3.05) (size 2.5 2.5) (drill 1.7) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "SHIELD") (tstamp b6da9771-4617-45db-9811-02e044609eaf))
-    (model "./CM4IO.3dshapes/TRJG0926HENL .stp"
+    (model "./AP2100.3dshapes/TRJG0926HENL .stp"
       (offset (xyz 0 10.45 6.8))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module "CM4IO:EDAC 690-019-298-412" locked (layer "F.Cu") (tedit 5EBC1ADD) (tstamp 00000000-0000-0000-0000-00005d7b2ef2)
+  (module "AP2100:EDAC 690-019-298-412" locked (layer "F.Cu") (tedit 5EBC1ADD) (tstamp 00000000-0000-0000-0000-00005d7b2ef2)
     (at 127 150.45)
     (property "Field4" "Farnell")
     (property "Field5" "2614936")
@@ -3532,14 +3532,14 @@
       (net 1 "GND") (pinfunction "SH") (tstamp 4f4b37e0-4680-433b-bd8b-2ad65c9275c8))
     (pad "SH4" thru_hole oval (at 7.25 5.96) (size 1.5 2.3) (drill oval 0.9 1.7) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "SH") (tstamp 59b63a7a-6614-4c15-8006-94f07b2db07f))
-    (model "./CM4IO.3dshapes/471511051.stp"
+    (model "./AP2100.3dshapes/471511051.stp"
       (offset (xyz 0 -10.5 3.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module "CM4IO:EDAC 690-019-298-412" (layer "F.Cu") (tedit 5EBC1ADD) (tstamp 00000000-0000-0000-0000-00005d7b3ffc)
+  (module "AP2100:EDAC 690-019-298-412" (layer "F.Cu") (tedit 5EBC1ADD) (tstamp 00000000-0000-0000-0000-00005d7b3ffc)
     (at 102 150.45)
     (property "Field4" "Farnell")
     (property "Field5" "2614936")
@@ -3624,7 +3624,7 @@
       (net 1 "GND") (pinfunction "SH") (tstamp 4f4b37e0-4680-433b-bd8b-2ad65c9275c8))
     (pad "SH4" thru_hole oval (at 7.25 5.96) (size 1.5 2.3) (drill oval 0.9 1.7) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "SH") (tstamp 59b63a7a-6614-4c15-8006-94f07b2db07f))
-    (model "./CM4IO.3dshapes/471511051.stp"
+    (model "./AP2100.3dshapes/471511051.stp"
       (offset (xyz 0 -10.5 3.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -3799,7 +3799,7 @@
     )
   )
 
-  (module "CM4IO:MOLEX_USB_67298-4090" (layer "F.Cu") (tedit 5EBC23AD) (tstamp 00000000-0000-0000-0000-00005da5f843)
+  (module "AP2100:MOLEX_USB_67298-4090" (layer "F.Cu") (tedit 5EBC23AD) (tstamp 00000000-0000-0000-0000-00005da5f843)
     (at 172 150.7)
     (property "Field4" "Farnell")
     (property "Field5" "	2751688")
@@ -3863,7 +3863,7 @@
       (net 1 "GND") (pinfunction "MT3") (tstamp daae381b-dfba-477c-9aa0-49fc6d420b47))
     (pad "MT4" thru_hole circle (at 6.57 -5.68) (size 3.45 3.45) (drill 2.3) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "MT4") (tstamp d791bf26-5501-4966-ac64-44e3e3837245))
-    (model "./CM4IO.3dshapes/672984090.stp"
+    (model "./AP2100.3dshapes/672984090.stp"
       (offset (xyz 0 -9.800000000000001 8))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 -180 0))
@@ -4956,7 +4956,7 @@
       (net 1 "GND") (pinfunction "Pin_3") (tstamp 5d641cf3-aa61-433b-8eeb-a484e248e4a2))
     (pad "4" thru_hole circle (at 3.75 -4.55 180) (size 1.408 1.408) (drill 0.9) (layers *.Cu *.Mask)
       (net 227 "/+5v") (pinfunction "Pin_4") (tstamp 92958cfd-7d14-478a-8b70-e45c00ba3e4c))
-    (model "./CM4IO.3dshapes/c-171826-4-y3-3d.stp"
+    (model "./AP2100.3dshapes/c-171826-4-y3-3d.stp"
       (offset (xyz 0 0.75 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -5613,7 +5613,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "./CM4IO.3dshapes/ECS-.327-12.5-12QS-TR.stp"
+    (model "./AP2100.3dshapes/ECS-.327-12.5-12QS-TR.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5763,7 +5763,7 @@
     )
   )
 
-  (module "CM4IO:SDCARD_MOLEX_503398-1892" locked (layer "F.Cu") (tedit 5EBD10A7) (tstamp 00000000-0000-0000-0000-00005e6aa340)
+  (module "AP2100:SDCARD_MOLEX_503398-1892" locked (layer "F.Cu") (tedit 5EBD10A7) (tstamp 00000000-0000-0000-0000-00005e6aa340)
     (at 201.08 152.45 180)
     (property "Field4" "Farnell")
     (property "Field5" "2358234")
@@ -5891,14 +5891,14 @@
       (net 1 "GND") (pinfunction "SHIELD") (tstamp bb96a903-82a3-4c19-b50f-1445e5a20c98))
     (pad "11" smd rect (at -6.48 5.64 180) (size 0.7 3.33) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "SHIELD") (tstamp d15b5e1f-a72e-42da-ba36-10499ebab43a))
-    (model "./CM4IO.3dshapes/5033981892.stp"
+    (model "./AP2100.3dshapes/5033981892.stp"
       (offset (xyz -135.9 -16.4 154.4))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 0))
     )
   )
 
-  (module "CM4IO:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal" (layer "F.Cu") (tedit 5EBC289E) (tstamp 00000000-0000-0000-0000-00005e757bcc)
+  (module "AP2100:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal" (layer "F.Cu") (tedit 5EBC289E) (tstamp 00000000-0000-0000-0000-00005e757bcc)
     (at 108.5 75 180)
     (descr "Molex FH12, FFC/FPC connector, FH12-22S-0.5SH, 22 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator")
     (tags "connector Hirose  top entry")
@@ -5998,14 +5998,14 @@
       (net 172 "/+3.3v") (pinfunction "Pin_22") (tstamp f9eefa8f-1e5a-4ca5-9d9c-01150f569d57))
     (pad "MP" smd rect (at 7.15 1.4 180) (size 1.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 106de9ea-aa6f-45a1-b412-2f07ca97222a))
     (pad "MP" smd rect (at -7.15 1.4 180) (size 1.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6d9e35d5-792c-42bc-9824-d2b9fad42806))
-    (model "./CM4IO.3dshapes/FH12-22S-0.5SHa.stp"
+    (model "./AP2100.3dshapes/FH12-22S-0.5SHa.stp"
       (offset (xyz 16.5 -10.6 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 90 180))
     )
   )
 
-  (module "CM4IO:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal" (layer "F.Cu") (tedit 5EBC289E) (tstamp 00000000-0000-0000-0000-00005e757da7)
+  (module "AP2100:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal" (layer "F.Cu") (tedit 5EBC289E) (tstamp 00000000-0000-0000-0000-00005e757da7)
     (at 84 93.5 -90)
     (descr "Molex FH12, FFC/FPC connector, FH12-22S-0.5SH, 22 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator")
     (tags "connector Hirose  top entry")
@@ -6105,7 +6105,7 @@
       (net 172 "/+3.3v") (pinfunction "Pin_22") (tstamp f9eefa8f-1e5a-4ca5-9d9c-01150f569d57))
     (pad "MP" smd rect (at 7.15 1.4 270) (size 1.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 106de9ea-aa6f-45a1-b412-2f07ca97222a))
     (pad "MP" smd rect (at -7.15 1.4 270) (size 1.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6d9e35d5-792c-42bc-9824-d2b9fad42806))
-    (model "./CM4IO.3dshapes/FH12-22S-0.5SHa.stp"
+    (model "./AP2100.3dshapes/FH12-22S-0.5SHa.stp"
       (offset (xyz 16.5 -10.6 2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 90 180))
@@ -6205,7 +6205,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
-    (model "./CM4IO.3dshapes/DMP3018SFVQ-13.stp"
+    (model "./AP2100.3dshapes/DMP3018SFVQ-13.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6762,7 +6762,7 @@
     )
   )
 
-  (module "CM4IO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias" (layer "F.Cu") (tedit 5EEFB632) (tstamp 00000000-0000-0000-0000-00005ea7586d)
+  (module "AP2100:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias" (layer "F.Cu") (tedit 5EEFB632) (tstamp 00000000-0000-0000-0000-00005ea7586d)
     (at 228.35 126.0625 90)
     (descr "SOIC, 8 Pin (http://www.ti.com/lit/ds/symlink/lm5017.pdf#page=31), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
@@ -6942,7 +6942,7 @@
     )
   )
 
-  (module "CM4IO:PCIex1-36" locked (layer "F.Cu") (tedit 5EF0FCE1) (tstamp 00000000-0000-0000-0000-00005ea75941)
+  (module "AP2100:PCIex1-36" locked (layer "F.Cu") (tedit 5EF0FCE1) (tstamp 00000000-0000-0000-0000-00005ea75941)
     (at 207.75 114.15 90)
     (property "Field4" "Mouser")
     (property "Field5" "649-10018783-1200TLF")
@@ -7042,7 +7042,7 @@
       (net 104 "Net-(J12-PadB17)") (pinfunction "nPRSNT2") (tstamp ca16ccbd-d361-4ee9-8219-7a4bd1de8fc7))
     (pad "B18" thru_hole circle (at 19 4.5) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "GND") (tstamp d34cf8ff-1efa-425d-a9cc-c59a24ea2977))
-    (model "./CM4IO.3dshapes/PCIe-x1-36.step"
+    (model "./AP2100.3dshapes/PCIe-x1-36.step"
       (offset (xyz 11.5 -1.25 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -8024,7 +8024,7 @@
     )
   )
 
-  (module "CM4IO:Raspberry-Pi-4-Compute-Module" locked (layer "F.Cu") (tedit 5EF082BB) (tstamp 9ec7647e-2208-49c6-82cf-a449a4f70cd5)
+  (module "AP2100:Raspberry-Pi-4-Compute-Module" locked (layer "F.Cu") (tedit 5EF082BB) (tstamp 9ec7647e-2208-49c6-82cf-a449a4f70cd5)
     (at 195.5 73.5 180)
     (descr "Raspberry Pi 4 Compute Module")
     (tags "Raspberry Pi 4 Compute Module")
@@ -8479,12 +8479,12 @@
       (net 116 "/CM4_HighSpeed/HDMI0_SDA") (pinfunction "HDMI0_SDA") (tstamp dafe484d-e069-48cf-8e0d-a19cb2f09014))
     (pad "200" smd rect (at 35 -11.7 90) (size 0.2 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 117 "/CM4_HighSpeed/HDMI0_SCL") (pinfunction "HDMI0_SCL") (tstamp 23a6bd14-1bcc-49c0-8f08-22c1645dd637))
-    (model "./CM4IO.3dshapes/DF40C-100DS.stp"
+    (model "./AP2100.3dshapes/DF40C-100DS.stp"
       (offset (xyz -0.46 15.38 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
-    (model "./CM4IO.3dshapes/DF40C-100DS.stp"
+    (model "./AP2100.3dshapes/DF40C-100DS.stp"
       (offset (xyz 33.46 15.38 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))

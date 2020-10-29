@@ -371,14 +371,6 @@
         "microvia_drill": 0.1,
         "name": "100R",
         "nets": [
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD0_N",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD0_P",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD1_N",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD1_P",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD2_N",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD2_P",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD3_N",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD3_P",
           "/CM4_HighSpeed/CAM0_C_N",
           "/CM4_HighSpeed/CAM0_C_P",
           "/CM4_HighSpeed/CAM0_D0_N",
@@ -447,9 +439,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "75R",
-        "nets": [
-          "/TV_OUT"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
@@ -474,18 +464,6 @@
           "/PCIE_RX_P",
           "/PCIE_TX_N",
           "/PCIE_TX_P",
-          "/USB2-HUB/HD1_N",
-          "/USB2-HUB/HD1_P",
-          "/USB2-HUB/HD2_N",
-          "/USB2-HUB/HD2_P",
-          "/USB2-HUB/HD3_N",
-          "/USB2-HUB/HD3_P",
-          "/USB2-HUB/HD4_N",
-          "/USB2-HUB/HD4_P",
-          "/USB2-HUB/USBD_N",
-          "/USB2-HUB/USBD_P",
-          "/USB2-HUB/USBH_N",
-          "/USB2-HUB/USBH_P",
           "/USB2_N",
           "/USB2_P"
         ],
@@ -541,12 +519,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "POE TAPS",
-        "nets": [
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR0_TAP",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR1_TAP",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR2_TAP",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR3_TAP"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
@@ -564,7 +537,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "CM4IO.net",
+      "netlist": "AP2100.net",
       "specctra_dsn": "",
       "step": "",
       "vmrl": "",
@@ -602,7 +575,7 @@
   },
   "sheets": [
     [
-      "086e187c-cce4-493b-b4ad-2b58dcb8fb21",
+      "a12f1696-c59b-4018-a383-5f24ed0d8214",
       ""
     ],
     [

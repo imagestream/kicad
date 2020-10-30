@@ -575,7 +575,7 @@
   },
   "sheets": [
     [
-      "a12f1696-c59b-4018-a383-5f24ed0d8214",
+      "ba84a329-fb02-414b-adf4-d957b5b84095",
       ""
     ],
     [
@@ -595,12 +595,20 @@
       "CM4_GPIO ( Ethernet, GPIO, SDCARD)"
     ],
     [
+      "cf78a3c1-e9dd-4717-81e3-1cdf5b44b55a",
+      "Additional Ethernet"
+    ],
+    [
       "4e123158-2d06-47e2-89a0-87bf08de438a",
       "PoE"
     ],
     [
       "00000000-0000-0000-0000-00005ed4bb5b",
       "PCIe Routing"
+    ],
+    [
+      "eb6874d3-e4b9-46a5-9120-e8544fd31901",
+      "PCIe Switch Power and GND"
     ],
     [
       "00000000-0000-0000-0000-00005d31f999",

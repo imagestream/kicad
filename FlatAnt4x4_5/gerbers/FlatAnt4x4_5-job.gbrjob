@@ -1,0 +1,128 @@
+{
+"DesignRules": [
+{
+"Layers": "Outer",
+"PadToPad": 0.2,
+"PadToTrack": 0.2,
+"TrackToTrack": 0.2
+}
+],
+"FilesAttributes": [
+{
+"FileFunction": "Copper,L1,Top",
+"FilePolarity": "Positive",
+"Path": "FlatAnt4x4_5-F_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L2,Bot",
+"FilePolarity": "Positive",
+"Path": "FlatAnt4x4_5-B_Cu.gbr"
+},
+{
+"FileFunction": "SolderPaste,Top",
+"FilePolarity": "Positive",
+"Path": "FlatAnt4x4_5-F_Paste.gbr"
+},
+{
+"FileFunction": "SolderPaste,Bot",
+"FilePolarity": "Positive",
+"Path": "FlatAnt4x4_5-B_Paste.gbr"
+},
+{
+"FileFunction": "Legend,Top",
+"FilePolarity": "Positive",
+"Path": "FlatAnt4x4_5-F_SilkS.gbr"
+},
+{
+"FileFunction": "Legend,Bot",
+"FilePolarity": "Positive",
+"Path": "FlatAnt4x4_5-B_SilkS.gbr"
+},
+{
+"FileFunction": "SolderMask,Top",
+"FilePolarity": "Negative",
+"Path": "FlatAnt4x4_5-F_Mask.gbr"
+},
+{
+"FileFunction": "SolderMask,Bot",
+"FilePolarity": "Negative",
+"Path": "FlatAnt4x4_5-B_Mask.gbr"
+},
+{
+"FileFunction": "Profile",
+"FilePolarity": "Positive",
+"Path": "FlatAnt4x4_5-Edge_Cuts.gbr"
+}
+],
+"GeneralSpecs": {
+"BoardThickness": 0.8,
+"Finish": "None",
+"LayerNumber": 2,
+"ProjectId": {
+"GUID": "466c6174-416e-4743-9478-342e6b696361",
+"Name": "FlatAnt4x4",
+"Revision": "rev?"
+},
+"Size": {
+"X": 168.05,
+"Y": 168.05
+}
+},
+"Header": {
+"CreationDate": "2020-07-17T11:30:15-05:00",
+"GenerationSoftware": {
+"Application": "Pcbnew",
+"Vendor": "KiCad",
+"Version": "5.99.0-unknown-6296b4e~102~ubuntu18.04.1"
+}
+},
+"MaterialStackup": [
+{
+"Name": "Top Silk Screen",
+"Type": "Legend"
+},
+{
+"Name": "Top Solder Paste",
+"Type": "SolderPaste"
+},
+{
+"Color": "Green",
+"Name": "Top Solder Mask",
+"Thickness": 0.01,
+"Type": "SolderMask"
+},
+{
+"Name": "F.Cu",
+"Thickness": 0.035,
+"Type": "Copper"
+},
+{
+"DielectricConstant": "4.50",
+"LossTangent": "0.02",
+"Material": "FR4",
+"Name": "F.Cu/B.Cu",
+"Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)",
+"Thickness": 0.71,
+"Type": "Dielectric"
+},
+{
+"Name": "B.Cu",
+"Thickness": 0.035,
+"Type": "Copper"
+},
+{
+"Color": "Green",
+"Name": "Bottom Solder Mask",
+"Thickness": 0.01,
+"Type": "SolderMask"
+},
+{
+"Name": "Bottom Solder Paste",
+"Type": "SolderPaste"
+},
+{
+"Name": "Bottom Silk Screen",
+"Type": "Legend"
+}
+]
+}

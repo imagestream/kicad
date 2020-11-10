@@ -95,7 +95,6 @@
     )
   )
 
-
   (junction (at 88.265 93.98) (diameter 1.016) (color 0 0 0 0))
   (junction (at 92.075 97.79) (diameter 1.016) (color 0 0 0 0))
   (junction (at 213.36 133.35) (diameter 0.9144) (color 0 0 0 0))
@@ -154,9 +153,6 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 92.075 104.14) (xy 92.075 97.79))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (wire (pts (xy 98.425 88.9) (xy 98.425 104.14))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 102.235 104.14) (xy 102.235 88.9))
@@ -4009,9 +4005,6 @@
     (pin "TR2_TAP" output (at 120.015 129.54 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (pin "GPIO_VREF" output (at 98.425 104.14 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
   )
 
   (sheet (at 83.185 26.67) (size 36.83 62.23)
@@ -4070,9 +4063,6 @@
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (pin "+3.3v" input (at 83.185 68.58 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (pin "GPIO_VREF" input (at 98.425 88.9 270)
       (effects (font (size 1.27 1.27)) (justify left))
     )
   )
@@ -4383,9 +4373,6 @@
     (path "/00000000-0000-0000-0000-00005cff70b1/00000000-0000-0000-0000-00005d669a9a"
       (reference "J5") (unit 1) (value "Conn_01x22_Female") (footprint "Connector_FFC-FPC:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal")
     )
-    (path "/00000000-0000-0000-0000-00005cff70b1/00000000-0000-0000-0000-00005e67855b"
-      (reference "J6") (unit 1) (value "THD-02-R") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical")
-    )
     (path "/00000000-0000-0000-0000-00005cff70b1/00000000-0000-0000-0000-00005e471fb9"
       (reference "Module1") (unit 2) (value "ComputeModule4") (footprint "AP3000:Raspberry-Pi-4-Compute-Module")
     )
@@ -4464,20 +4451,8 @@
     (path "/00000000-0000-0000-0000-00005cff706a/125bae1c-aa2d-4013-a9e8-cf5348d566b1"
       (reference "R3") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e5f7bb2"
-      (reference "R4") (unit 1) (value "DNS 0") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e5f44e8"
-      (reference "R5") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e28664f"
       (reference "R10") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005cff706a/a747e8fd-28f4-402b-969b-2c8e62ca6408"
-      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-    )
-    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e5bd558"
-      (reference "TP5") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
     )
     (path "/00000000-0000-0000-0000-00005cff706a/b96765d0-5012-490d-86c3-027703d5a7d5"
       (reference "U1") (unit 1) (value "TPD4EUSB30") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")

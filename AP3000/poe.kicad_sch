@@ -1843,7 +1843,6 @@
     )
   )
 
-
   (junction (at 20.32 132.08) (diameter 1.016) (color 0 0 0 0))
   (junction (at 26.67 77.47) (diameter 1.016) (color 0 0 0 0))
   (junction (at 39.37 77.47) (diameter 1.016) (color 0 0 0 0))

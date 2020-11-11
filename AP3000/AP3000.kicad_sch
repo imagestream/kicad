@@ -4355,23 +4355,23 @@
     (path "/00000000-0000-0000-0000-00005e328d89/00000000-0000-0000-0000-00005e8e1392"
       (reference "Y2") (unit 1) (value "X32K768S301") (footprint "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm")
     )
+    (path "/00000000-0000-0000-0000-00005cff70b1/b06480d1-e0bb-431c-8b06-8d92515d1f94"
+      (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005cff70b1/00000000-0000-0000-0000-00005d18172e"
       (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005cff70b1/00000000-0000-0000-0000-00005d1874b1"
       (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005cff70b1/00000000-0000-0000-0000-00005d23602b"
+    (path "/00000000-0000-0000-0000-00005cff70b1/0b75f644-bc7d-4292-a374-98114a0e2a6b"
       (reference "#PWR0132") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005cff70b1/00000000-0000-0000-0000-00005d250ba3"
-      (reference "#PWR0134") (unit 1) (value "GND") (footprint "")
+    (path "/00000000-0000-0000-0000-00005cff70b1/c409f126-9f05-4756-81e0-6e1b6593f15d"
+      (reference "J4") (unit 1) (value "Camera 0") (footprint "AP3000:EDAC 690-019-298-412")
     )
-    (path "/00000000-0000-0000-0000-00005cff70b1/00000000-0000-0000-0000-00005d1a321e"
-      (reference "J4") (unit 1) (value "Conn_01x22_Female") (footprint "Connector_FFC-FPC:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal")
-    )
-    (path "/00000000-0000-0000-0000-00005cff70b1/00000000-0000-0000-0000-00005d669a9a"
-      (reference "J5") (unit 1) (value "Conn_01x22_Female") (footprint "Connector_FFC-FPC:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal")
+    (path "/00000000-0000-0000-0000-00005cff70b1/df0e97ad-c526-40a2-899c-7a825fa4e64b"
+      (reference "J5") (unit 1) (value "Camera 1") (footprint "AP3000:EDAC 690-019-298-412")
     )
     (path "/00000000-0000-0000-0000-00005cff70b1/00000000-0000-0000-0000-00005e471fb9"
       (reference "Module1") (unit 2) (value "ComputeModule4") (footprint "AP3000:Raspberry-Pi-4-Compute-Module")

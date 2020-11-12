@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.30479999999999996
+          "min_clearance": 0.07619999999999999
         }
       },
       "diff_pair_dimensions": [
@@ -113,7 +113,7 @@
         "min_track_width": 0.09,
         "min_via_annular_width": 0.13,
         "min_via_annulus": 0.049999999999999996,
-        "min_via_diameter": 0.44999999999999996,
+        "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.051,
         "solder_mask_min_width": 0.25,
         "solder_paste_clearance": 0.0,
@@ -350,7 +350,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.127,
+        "clearance": 0.1016,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.13,
@@ -361,8 +361,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
-        "via_diameter": 0.45,
-        "via_drill": 0.25,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
         "wire_width": 6.0
       },
       {
@@ -396,10 +396,6 @@
           "/CM4_HighSpeed/CAM1_D0_P",
           "/CM4_HighSpeed/CAM1_D1_N",
           "/CM4_HighSpeed/CAM1_D1_P",
-          "/CM4_HighSpeed/CAM1_D2_N",
-          "/CM4_HighSpeed/CAM1_D2_P",
-          "/CM4_HighSpeed/CAM1_D3_N",
-          "/CM4_HighSpeed/CAM1_D3_P",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -503,7 +499,7 @@
   },
   "sheets": [
     [
-      "6bc3cd1f-fb75-4f7f-8f49-ce7cbcc3fdbc",
+      "77f6d835-50c5-40bb-9636-7ad7475c2630",
       ""
     ],
     [

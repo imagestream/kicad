@@ -5,11 +5,11 @@
       "Application": "Pcbnew",
       "Version": "5.99.0-unknown-c07a38b91~106~ubuntu20.04.1"
     },
-    "CreationDate": "2020-11-24T10:54:45-06:00"
+    "CreationDate": "2020-11-24T10:55:56-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "FlatAntPanel4x4",
+      "Name": "FlatAntPanel4x4_Reflector",
       "GUID": "466c6174-416e-4745-9061-6e656c347834",
       "Revision": "rev?"
     },
@@ -26,55 +26,52 @@
       "Layers": "Outer",
       "PadToPad": 0.0,
       "PadToTrack": 0.0,
-      "TrackToTrack": 0.1999,
-      "MinLineWidth": 0.313,
-      "TrackToRegion": 0.508,
-      "RegionToRegion": 0.508
+      "TrackToTrack": 0.1999
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "FlatAntPanel4x4-F_Cu.gbr",
+      "Path": "FlatAntPanel4x4_Reflector-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "FlatAntPanel4x4-B_Cu.gbr",
+      "Path": "FlatAntPanel4x4_Reflector-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "FlatAntPanel4x4-F_Paste.gbr",
+      "Path": "FlatAntPanel4x4_Reflector-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "FlatAntPanel4x4-B_Paste.gbr",
+      "Path": "FlatAntPanel4x4_Reflector-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "FlatAntPanel4x4-F_Silkscreen.gbr",
+      "Path": "FlatAntPanel4x4_Reflector-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "FlatAntPanel4x4-B_Silkscreen.gbr",
+      "Path": "FlatAntPanel4x4_Reflector-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "FlatAntPanel4x4-F_Mask.gbr",
+      "Path": "FlatAntPanel4x4_Reflector-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "FlatAntPanel4x4-B_Mask.gbr",
+      "Path": "FlatAntPanel4x4_Reflector-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "FlatAntPanel4x4-Edge_Cuts.gbr",
+      "Path": "FlatAntPanel4x4_Reflector-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

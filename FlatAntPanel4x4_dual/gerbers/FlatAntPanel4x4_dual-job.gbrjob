@@ -1,0 +1,177 @@
+{
+"DesignRules": [
+{
+"Layers": "Outer",
+"MinLineWidth": 0.3082,
+"PadToPad": 0.1999,
+"PadToTrack": 0.1999,
+"RegionToRegion": 0.508,
+"TrackToRegion": 0.508,
+"TrackToTrack": 0.1999
+},
+{
+"Layers": "Inner",
+"PadToPad": 0.1999,
+"PadToTrack": 0.1999,
+"RegionToRegion": 0.508,
+"TrackToRegion": 0.508,
+"TrackToTrack": 0.1999
+}
+],
+"FilesAttributes": [
+{
+"FileFunction": "Copper,L1,Top",
+"FilePolarity": "Positive",
+"Path": "FlatAntPanel4x4_dual-F_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L2,Inr",
+"FilePolarity": "Positive",
+"Path": "FlatAntPanel4x4_dual-In1_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L3,Inr",
+"FilePolarity": "Positive",
+"Path": "FlatAntPanel4x4_dual-In2_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L4,Bot",
+"FilePolarity": "Positive",
+"Path": "FlatAntPanel4x4_dual-B_Cu.gbr"
+},
+{
+"FileFunction": "SolderPaste,Top",
+"FilePolarity": "Positive",
+"Path": "FlatAntPanel4x4_dual-F_Paste.gbr"
+},
+{
+"FileFunction": "SolderPaste,Bot",
+"FilePolarity": "Positive",
+"Path": "FlatAntPanel4x4_dual-B_Paste.gbr"
+},
+{
+"FileFunction": "Legend,Top",
+"FilePolarity": "Positive",
+"Path": "FlatAntPanel4x4_dual-F_Silkscreen.gbr"
+},
+{
+"FileFunction": "Legend,Bot",
+"FilePolarity": "Positive",
+"Path": "FlatAntPanel4x4_dual-B_Silkscreen.gbr"
+},
+{
+"FileFunction": "SolderMask,Top",
+"FilePolarity": "Negative",
+"Path": "FlatAntPanel4x4_dual-F_Mask.gbr"
+},
+{
+"FileFunction": "SolderMask,Bot",
+"FilePolarity": "Negative",
+"Path": "FlatAntPanel4x4_dual-B_Mask.gbr"
+},
+{
+"FileFunction": "Profile",
+"FilePolarity": "Positive",
+"Path": "FlatAntPanel4x4_dual-Edge_Cuts.gbr"
+}
+],
+"GeneralSpecs": {
+"BoardThickness": 1.2,
+"Finish": "None",
+"LayerNumber": 4,
+"ProjectId": {
+"GUID": "466c6174-416e-4745-9061-6e656c347834",
+"Name": "FlatAntPanel4x4",
+"Revision": "rev?"
+},
+"Size": {
+"X": 186.1,
+"Y": 226.1
+}
+},
+"Header": {
+"CreationDate": "2020-12-18T19:28:59-06:00",
+"GenerationSoftware": {
+"Application": "Pcbnew",
+"Vendor": "KiCad",
+"Version": "5.99.0-unknown-b1adb93c1~106~ubuntu20.04.1"
+}
+},
+"MaterialStackup": [
+{
+"Name": "Top Silk Screen",
+"Type": "Legend"
+},
+{
+"Name": "Top Solder Paste",
+"Type": "SolderPaste"
+},
+{
+"Color": "Green",
+"Name": "Top Solder Mask",
+"Thickness": 0.01,
+"Type": "SolderMask"
+},
+{
+"Name": "F.Cu",
+"Thickness": 0.035,
+"Type": "Copper"
+},
+{
+"DielectricConstant": "4.50",
+"LossTangent": "0.02",
+"Material": "FR4",
+"Name": "F.Cu/In1.Cu",
+"Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)",
+"Thickness": 0.3467,
+"Type": "Dielectric"
+},
+{
+"Name": "In1.Cu",
+"Thickness": 0.035,
+"Type": "Copper"
+},
+{
+"DielectricConstant": "4.50",
+"LossTangent": "0.02",
+"Material": "FR4",
+"Name": "In1.Cu/In2.Cu",
+"Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)",
+"Thickness": 0.3467,
+"Type": "Dielectric"
+},
+{
+"Name": "In2.Cu",
+"Thickness": 0.035,
+"Type": "Copper"
+},
+{
+"DielectricConstant": "4.50",
+"LossTangent": "0.02",
+"Material": "FR4",
+"Name": "In2.Cu/B.Cu",
+"Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)",
+"Thickness": 0.3467,
+"Type": "Dielectric"
+},
+{
+"Name": "B.Cu",
+"Thickness": 0.035,
+"Type": "Copper"
+},
+{
+"Color": "Green",
+"Name": "Bottom Solder Mask",
+"Thickness": 0.01,
+"Type": "SolderMask"
+},
+{
+"Name": "Bottom Solder Paste",
+"Type": "SolderPaste"
+},
+{
+"Name": "Bottom Silk Screen",
+"Type": "Legend"
+}
+]
+}

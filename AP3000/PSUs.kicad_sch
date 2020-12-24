@@ -269,7 +269,6 @@
     )
   )
 
-
   (junction (at 48.26 43.18) (diameter 1.016) (color 0 0 0 0))
   (junction (at 49.53 102.87) (diameter 1.016) (color 0 0 0 0))
   (junction (at 50.165 158.75) (diameter 1.016) (color 0 0 0 0))
@@ -1142,7 +1141,7 @@
     (property "Part Description" "" (id 8) (at 125.095 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PartsBoxID" "CRCW060315K0FKEA" (id 4) (at 125.095 157.48 0)
+    (property "PartsBoxID" "0603-15K-1%" (id 4) (at 125.095 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )

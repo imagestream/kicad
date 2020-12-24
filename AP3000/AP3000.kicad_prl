@@ -22,7 +22,7 @@
       "pads": true,
       "text": true,
       "tracks": true,
-      "vias": false,
+      "vias": true,
       "zones": true
     },
     "visible_items": [
@@ -50,6 +50,7 @@
       22,
       23,
       24,
+      27,
       28,
       29,
       30,
@@ -59,7 +60,7 @@
       37,
       38
     ],
-    "visible_layers": "ffdffff_7ffffffd"
+    "visible_layers": "ffcffbf_ffffffff"
   },
   "meta": {
     "filename": "AP3000.kicad_prl",

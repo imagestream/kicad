@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -58,10 +58,10 @@
       37,
       38
     ],
-    "visible_layers": "003fdff_80000002"
+    "visible_layers": "003fdff_80000003"
   },
   "meta": {
-    "filename": "FlatAntPanel4x4.kicad_prl",
+    "filename": "FlatAntPanel4x4_dual.kicad_prl",
     "version": 2
   },
   "project": {

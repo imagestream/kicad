@@ -1432,6 +1432,7 @@
     )
   )
 
+
   (junction (at 21.59 161.29) (diameter 1.016) (color 0 0 0 0))
   (junction (at 27.94 76.2) (diameter 1.016) (color 0 0 0 0))
   (junction (at 40.64 76.2) (diameter 1.016) (color 0 0 0 0))
@@ -3438,13 +3439,13 @@
     (property "Value" "2.2nF 2KV" (id 1) (at 191.135 103.505 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1812_4532Metric" (id 2) (at 186.055 100.33 0)
+    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (id 2) (at 186.055 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 186.055 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PartsBoxID" "1812-2.2nF-X7R-2KV" (id 4) (at 186.055 100.33 0)
+    (property "PartsBoxID" "1210-2.2nF-X7R-2KV" (id 4) (at 186.055 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "-" (id 5) (at 245.745 127 0)

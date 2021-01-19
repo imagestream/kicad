@@ -168,6 +168,7 @@
     )
   )
 
+
   (junction (at 88.265 93.98) (diameter 1.016) (color 0 0 0 0))
   (junction (at 92.075 97.79) (diameter 1.016) (color 0 0 0 0))
   (junction (at 208.915 109.22) (diameter 1.016) (color 0 0 0 0))
@@ -5052,7 +5053,7 @@
       (reference "C27") (unit 1) (value ".1u 100v") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/ea75d25b-cc8a-4eea-9996-efa1e78fc5cb"
-      (reference "C28") (unit 1) (value "2.2nF 2KV") (footprint "Capacitor_SMD:C_1812_4532Metric")
+      (reference "C28") (unit 1) (value "2.2nF 2KV") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/775eba75-5a82-4ad7-9cea-0e6837046a53"
       (reference "C29") (unit 1) (value "22u  25v") (footprint "Capacitor_SMD:CP_Elec_5x5.8")

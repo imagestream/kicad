@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 35,
+    "active_layer": 47,
     "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -60,7 +60,8 @@
       37,
       38
     ],
-    "visible_layers": "ffcffbf_ffffffff"
+    "visible_layers": "ffcbf20_ffffffff",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "AP3000.kicad_prl",

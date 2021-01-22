@@ -44,8 +44,8 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
-          "min_clearance": 0.35559999999999997
+          "45_degree_only": false,
+          "min_clearance": 0.17779999999999999
         }
       },
       "diff_pair_dimensions": [
@@ -116,7 +116,7 @@
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": 0.0
+        "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
         0.0,
@@ -360,7 +360,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.1778,
         "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 6.0
@@ -422,12 +422,12 @@
         "microvia_drill": 0.1,
         "name": "90R",
         "nets": [
-          "/PCIE_CLK_N",
-          "/PCIE_CLK_P",
-          "/PCIE_RX_N",
-          "/PCIE_RX_P",
-          "/PCIE_TX_N",
-          "/PCIE_TX_P"
+          "/CM4_HighSpeed/PCIE_CLK_N",
+          "/CM4_HighSpeed/PCIE_CLK_P",
+          "/CM4_HighSpeed/PCIE_RX_N",
+          "/CM4_HighSpeed/PCIE_RX_P",
+          "/CM4_HighSpeed/PCIE_TX_N",
+          "/CM4_HighSpeed/PCIE_TX_P"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -485,7 +485,7 @@
   },
   "sheets": [
     [
-      "00000000-0000-0000-0000-00005e072e02",
+      "00000000-0000-0000-0000-00005cff70b1",
       ""
     ],
     [

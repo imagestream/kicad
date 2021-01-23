@@ -168,7 +168,6 @@
     )
   )
 
-
   (junction (at 88.265 93.98) (diameter 1.016) (color 0 0 0 0))
   (junction (at 92.075 97.79) (diameter 1.016) (color 0 0 0 0))
   (junction (at 208.915 109.22) (diameter 1.016) (color 0 0 0 0))
@@ -4743,6 +4742,9 @@
     (path "/00000000-0000-0000-0000-00005cff706a/e9db5277-1448-483b-8896-f511df86a05c"
       (reference "#PWR0125") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005cff706a/f4aa81fa-d1c4-48a2-907e-5da4fb1468f5"
+      (reference "#PWR0140") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005cff706a/e19c08ac-0b54-4d5c-b42a-fa1f8ee1be88"
       (reference "C1") (unit 1) (value "100n 16v") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -4770,6 +4772,9 @@
     (path "/00000000-0000-0000-0000-00005cff706a/ec55e9d7-9805-47d2-aa32-3b7f0603007f"
       (reference "J9") (unit 1) (value "0826-1X1T-GH-F") (footprint "BEL_0826-1X1T-GH-F")
     )
+    (path "/00000000-0000-0000-0000-00005cff706a/19ce6f52-01cf-46d1-bb9c-fdc3f7c820b9"
+      (reference "J13") (unit 1) (value "Conn_02x07_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical")
+    )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005dc6d7d8"
       (reference "Module1") (unit 1) (value "ComputeModule4") (footprint "AP3000:Raspberry-Pi-4-Compute-Module")
     )
@@ -4785,6 +4790,24 @@
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e28664f"
       (reference "R10") (unit 1) (value "1K 1%") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/00000000-0000-0000-0000-00005cff706a/796660d5-30aa-4e6e-9e81-63c16b7e04e4"
+      (reference "R39") (unit 1) (value "1K 1%") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/8a2736fb-5978-4965-920a-2530ceb3dbb8"
+      (reference "R40") (unit 1) (value "1K 1%") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/74c51f4a-1b8e-4760-96fd-c69f3a8bd4be"
+      (reference "R41") (unit 1) (value "1K 1%") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/c941f321-db8f-497e-a967-b36dfdcff85e"
+      (reference "R42") (unit 1) (value "1K 1%") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/dce94648-54b1-4986-8a04-2d64f9a79a72"
+      (reference "R43") (unit 1) (value "1K 1%") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/aba62755-afba-47cb-9acc-cd24b1753131"
+      (reference "R44") (unit 1) (value "1K 1%") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/00000000-0000-0000-0000-00005cff706a/b96765d0-5012-490d-86c3-027703d5a7d5"
       (reference "U1") (unit 1) (value "TPD4EUSB30") (footprint "Scott:USON-10_2.51x1.0mm_P0.5mm")
     )
@@ -4799,6 +4822,9 @@
     )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005d4cc39f"
       (reference "U9") (unit 1) (value "74LVC1G07SE-7") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/14e93193-49e9-406d-b1e1-a3fa73371aa4"
+      (reference "U15") (unit 1) (value "SN74LVC07AD") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005ed4bb5b/e492dca4-aaf1-4394-971d-c7fc2335e840"
       (reference "#PWR0111") (unit 1) (value "GND") (footprint "")

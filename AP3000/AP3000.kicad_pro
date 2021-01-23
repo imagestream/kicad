@@ -433,16 +433,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "90R",
-        "nets": [
-          "/PCIE_CLK_N",
-          "/PCIE_CLK_P",
-          "/PCIE_RX_N",
-          "/PCIE_RX_P",
-          "/PCIE_TX_N",
-          "/PCIE_TX_P",
-          "/USB2_N",
-          "/USB2_P"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.131318,

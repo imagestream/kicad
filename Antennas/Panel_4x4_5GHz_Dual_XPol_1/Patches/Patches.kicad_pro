@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.565,
+          "width": 1.565
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -111,6 +111,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
+        "min_via_annulus": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -293,19 +294,19 @@
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_sheet_names": "error",
-      "global_label_dangling": "warning",
+      "global_label_dangling": "error",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
-      "multiple_net_names": "warning",
-      "net_not_bus_member": "warning",
-      "no_connect_connected": "warning",
-      "no_connect_dangling": "warning",
+      "multiple_net_names": "error",
+      "net_not_bus_member": "error",
+      "no_connect_connected": "error",
+      "no_connect_dangling": "error",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
-      "similar_labels": "warning",
+      "similar_labels": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
     }
@@ -315,37 +316,37 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "FlatAntPanel4x4_Reflector.kicad_pro",
+    "filename": "Patches.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
-        "bus_width": 6.0,
-        "clearance": 0.199898,
-        "diff_pair_gap": 0.249936,
+        "bus_width": 5.0,
+        "clearance": 0.1999,
+        "diff_pair_gap": 0.24994,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.199898,
+        "diff_pair_width": 0.1999,
         "line_style": 0,
-        "microvia_diameter": 0.299974,
-        "microvia_drill": 0.100076,
+        "microvia_diameter": 0.29997,
+        "microvia_drill": 0.10008,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.313,
+        "track_width": 0.222,
         "via_diameter": 0.8001,
         "via_drill": 0.40005,
-        "wire_width": 6.0
+        "wire_width": 5.0
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.199898,
-        "diff_pair_gap": 0.249936,
+        "clearance": 0.1999,
+        "diff_pair_gap": 0.24994,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.199898,
+        "diff_pair_width": 0.1999,
         "line_style": 0,
-        "microvia_diameter": 0.299974,
-        "microvia_drill": 0.100076,
+        "microvia_diameter": 0.29997,
+        "microvia_drill": 0.10008,
         "name": "100R",
         "nets": [
           "/A1E1",
@@ -364,32 +365,36 @@
           "/A1E7S2",
           "/A1E8",
           "/A1E8S2",
-          "/A1P1"
+          "/A1P1",
+          "/A1P2",
+          "/A1P3",
+          "/A1P4",
+          "/A1P5"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.313,
+        "track_width": 0.222,
         "via_diameter": 0.8001,
         "via_drill": 0.40005,
         "wire_width": 12.0
       },
       {
-        "bus_width": 58.0,
-        "clearance": 0.199898,
-        "diff_pair_gap": 0.249936,
+        "bus_width": 61.0,
+        "clearance": 0.1999,
+        "diff_pair_gap": 0.24994,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.199898,
+        "diff_pair_width": 0.1999,
         "line_style": 0,
-        "microvia_diameter": 0.299974,
-        "microvia_drill": 0.100076,
+        "microvia_diameter": 0.29997,
+        "microvia_drill": 0.10008,
         "name": "50R",
         "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.478026,
-        "via_diameter": 0.8001,
+        "track_width": 1.565,
+        "via_diameter": 1.1,
         "via_drill": 0.40005,
-        "wire_width": 58.0
+        "wire_width": 61.0
       }
     ],
     "meta": {
@@ -404,6 +409,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "",
+      "vmrl": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -411,7 +417,7 @@
   "schematic": {
     "drawing": {
       "default_bus_thickness": 12.0,
-      "default_junction_size": 40.0,
+      "default_junction_size": 36.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
@@ -437,6 +443,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "aaa0b088-c502-43d9-838c-689a64e88ce8",
+      ""
+    ]
+  ],
   "text_variables": {}
 }

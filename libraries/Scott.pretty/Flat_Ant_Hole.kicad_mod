@@ -1,7 +1,7 @@
-(footprint "Flat_Ant_Hole" (version 20201116) (generator pcbnew) (layer "F.Cu")
-  (tedit 5FDBE124)
+(footprint "Flat_Ant_Hole" (version 20210228) (generator pcbnew) (layer "F.Cu")
+  (tedit 60651CB0)
   (attr through_hole)
-  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0.44 1.79 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7e93f053-fde1-48ef-af1b-f5719dd75177)
   )
@@ -63,8 +63,8 @@
     (xy 0.997704 0.781621)
     (xy -1.001585 0.78162)
     (xy -1.001585 -0.78249)) (layer "F.Mask") (width 0.0001) (fill solid) (tstamp 72451ec4-5c5d-4acd-bff4-5e5d57f9b36e))
-  (pad "" np_thru_hole circle (at 0 0) (size 1.565 1.565) (drill 0.8) (layers "F.Cu" "F.Mask") (tstamp 10a8b78b-9f0d-4d38-a56f-0a3acde2d6ec))
-  (pad "1" smd custom (at 0 0) (size 1.524 1.524) (layers "F.Cu")
+  (pad "" np_thru_hole circle (at 0 0) (locked) (size 1.565 1.565) (drill 1) (layers "F.Cu" "F.Mask") (tstamp 10a8b78b-9f0d-4d38-a56f-0a3acde2d6ec))
+  (pad "1" smd custom (at 0 0) (locked) (size 1.524 1.524) (layers "F.Cu")
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
@@ -74,5 +74,5 @@
         (xy -1.001585 -0.78249)
       )       (width 0.0001)       (fill yes)      )
     ) (tstamp 524846f4-4983-4711-b02c-a36a518d1303))
-  (pad "2" smd circle (at 0 0) (size 10 10) (layers "B.Cu") (tstamp 32708dbb-118b-4443-a718-21b6f81b29c2))
+  (pad "2" smd circle (at 4 0) (locked) (size 1 1) (layers "B.Cu") (tstamp 32708dbb-118b-4443-a718-21b6f81b29c2))
 )

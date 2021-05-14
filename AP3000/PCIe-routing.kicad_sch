@@ -1,4 +1,6 @@
-(kicad_sch (version 20210126) (generator eeschema)
+(kicad_sch (version 20210406) (generator eeschema)
+
+  (uuid f513c0fb-cc92-4ddf-b7a9-df3ba15f74e8)
 
   (paper "A4")
 
@@ -422,7 +424,6 @@
       )
     )
   )
-
 
   (junction (at 30.48 34.29) (diameter 1.016) (color 0 0 0 0))
   (junction (at 30.48 46.99) (diameter 1.016) (color 0 0 0 0))
@@ -1474,6 +1475,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "PartsBoxID" "1775838-2" (id 9) (at 111.76 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C404121" (id 10) (at 111.76 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 437e5e13-a2b5-46ad-887f-f4d09f40aa29))

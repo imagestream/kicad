@@ -1,4 +1,6 @@
-(kicad_sch (version 20210126) (generator eeschema)
+(kicad_sch (version 20210406) (generator eeschema)
+
+  (uuid 8588886e-c016-43f9-a730-1c2173b7b04a)
 
   (paper "A4")
 
@@ -2507,7 +2509,6 @@
       )
     )
   )
-
 
   (junction (at 19.05 36.83) (diameter 1.016) (color 0 0 0 0))
   (junction (at 19.05 46.99) (diameter 1.016) (color 0 0 0 0))
@@ -5557,6 +5558,9 @@
     (property "PartsBoxID" "0826-1X1T-GH-F" (id 4) (at 65.405 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (id 5) (at 65.405 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid bb1d1080-49f6-408b-aeb2-573a8d69b29d))
     (pin "10" (uuid 4a4d8516-72cd-40d0-b38c-e4b5fad64938))
     (pin "11" (uuid b3f8a59e-bbc5-46e7-a379-679b4f643c2e))
@@ -5616,7 +5620,7 @@
   )
 
   (symbol (lib_id "AP3000:ComputeModule4-CM4") (at 180.975 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dc6d7d8)
     (property "Reference" "Module1" (id 0) (at 178.435 14.605 0))
     (property "Value" "ComputeModule4" (id 1) (at 178.435 16.9164 0))
@@ -5641,7 +5645,10 @@
     (property "Part Description" "100 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold" (id 8) (at 180.975 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PartsBoxID" "\nDF40C-100DS-0.4V(51)" (id 9) (at 180.975 76.2 0)
+    (property "PartsBoxID" "DF40C-100DS-0.4V(51)" (id 9) (at 180.975 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (id 10) (at 180.975 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3a00685a-fd63-4e4a-bb02-c3af5ec466fc))

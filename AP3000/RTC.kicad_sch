@@ -1,4 +1,6 @@
-(kicad_sch (version 20210126) (generator eeschema)
+(kicad_sch (version 20210406) (generator eeschema)
+
+  (uuid dc5a0397-b8c4-4983-875d-a7945baab35b)
 
   (paper "A4")
 
@@ -536,7 +538,6 @@
       )
     )
   )
-
 
   (junction (at 57.658 45.72) (diameter 1.016) (color 0 0 0 0))
   (junction (at 170.18 49.53) (diameter 1.016) (color 0 0 0 0))
@@ -1214,7 +1215,7 @@
     (property "PartsBoxID" "PCF85063AT/AY" (id 9) (at 91.44 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "2157792" (id 10) (at 91.44 55.88 0)
+    (property "LCSC" "" (id 10) (at 91.44 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b8c5fc35-2da2-4bd9-95bc-62a2c6c97e3f))

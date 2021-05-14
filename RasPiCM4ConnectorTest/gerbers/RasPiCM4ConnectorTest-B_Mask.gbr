@@ -1,0 +1,29 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,5.99.0-unknown-693fbf9073~128~ubuntu20.04.1*%
+%TF.CreationDate,2021-05-10T18:04:37-05:00*%
+%TF.ProjectId,RasPiCM4ConnectorTest,52617350-6943-44d3-9443-6f6e6e656374,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 5.99.0-unknown-693fbf9073~128~ubuntu20.04.1) date 2021-05-10 18:04:37*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,6.100000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,Module2*%
+X174460000Y-76500000D03*
+X141460000Y-76500000D03*
+X174460000Y-124500000D03*
+X141460000Y-124500000D03*
+%TD*%
+%TO.C,Module1*%
+X84460000Y-124500000D03*
+X117460000Y-76500000D03*
+X117460000Y-124500000D03*
+X84460000Y-76500000D03*
+%TD*%
+M02*

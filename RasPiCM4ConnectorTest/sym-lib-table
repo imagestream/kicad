@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "AP3000")(type "KiCad")(uri "/home/syoder/kicad/AP3000/AP3000.kicad_sym")(options "")(descr ""))
+)

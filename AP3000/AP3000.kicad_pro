@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": true,
-          "min_clearance": 0.35559999999999997
+          "min_clearance": 1.27
         }
       },
       "diff_pair_dimensions": [
@@ -112,7 +112,8 @@
         "min_track_width": 0.09,
         "min_via_annular_width": 0.13,
         "min_via_annulus": 0.049999999999999996,
-        "min_via_diameter": 0.5
+        "min_via_diameter": 0.5,
+        "use_height_for_length_calcs": true
       },
       "track_widths": [
         0.0,
@@ -120,6 +121,7 @@
         0.127,
         0.130048,
         0.1524,
+        0.1778,
         0.2032,
         0.3048,
         0.508,
@@ -392,10 +394,10 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.127,
-        "diff_pair_gap": 0.127,
+        "clearance": 0.1778,
+        "diff_pair_gap": 0.2032,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1016,
+        "diff_pair_width": 0.122174,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -408,24 +410,11 @@
           "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/E0_TRD2_N",
           "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/E0_TRD2_P",
           "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/E0_TRD3_N",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/E0_TRD3_P",
-          "/CM4_HighSpeed/CAM0_C_N",
-          "/CM4_HighSpeed/CAM0_C_P",
-          "/CM4_HighSpeed/CAM0_D0_N",
-          "/CM4_HighSpeed/CAM0_D0_P",
-          "/CM4_HighSpeed/CAM0_D1_N",
-          "/CM4_HighSpeed/CAM0_D1_P",
-          "/CM4_HighSpeed/CAM1_C_N",
-          "/CM4_HighSpeed/CAM1_C_P",
-          "/CM4_HighSpeed/CAM1_D0_N",
-          "/CM4_HighSpeed/CAM1_D0_P",
-          "/CM4_HighSpeed/CAM1_D1_N",
-          "/CM4_HighSpeed/CAM1_D1_P",
-          "GND"
+          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/E0_TRD3_P"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1016,
+        "track_width": 0.122174,
         "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 6.0
@@ -450,27 +439,77 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.127,
-        "diff_pair_gap": 0.127,
+        "clearance": 0.1778,
+        "diff_pair_gap": 0.2032,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.131318,
+        "diff_pair_width": 0.171704,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "90R",
+        "name": "85R",
         "nets": [
           "/CM4_HighSpeed/PCIE_CLK_N",
           "/CM4_HighSpeed/PCIE_CLK_P",
           "/CM4_HighSpeed/PCIE_RX_N",
           "/CM4_HighSpeed/PCIE_RX_P",
           "/CM4_HighSpeed/PCIE_TX_N",
-          "/CM4_HighSpeed/PCIE_TX_P",
+          "/CM4_HighSpeed/PCIE_TX_P"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.171704,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.1778,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.153162,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90R",
+        "nets": [
           "/CM4_HighSpeed/USB2_N",
           "/CM4_HighSpeed/USB2_P"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.131318,
+        "track_width": 0.153162,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.127,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1016,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "CAM100R",
+        "nets": [
+          "/CM4_HighSpeed/CAM0_C_N",
+          "/CM4_HighSpeed/CAM0_C_P",
+          "/CM4_HighSpeed/CAM0_D0_N",
+          "/CM4_HighSpeed/CAM0_D0_P",
+          "/CM4_HighSpeed/CAM0_D1_N",
+          "/CM4_HighSpeed/CAM0_D1_P",
+          "/CM4_HighSpeed/CAM1_C_N",
+          "/CM4_HighSpeed/CAM1_C_P",
+          "/CM4_HighSpeed/CAM1_D0_N",
+          "/CM4_HighSpeed/CAM1_D0_P",
+          "/CM4_HighSpeed/CAM1_D1_N",
+          "/CM4_HighSpeed/CAM1_D1_P"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1016,
         "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 6.0
@@ -531,7 +570,7 @@
   },
   "sheets": [
     [
-      "00000000-0000-0000-0000-00005e072e02",
+      "ddd8019d-46be-49c5-b817-9c851ca9587b",
       ""
     ],
     [

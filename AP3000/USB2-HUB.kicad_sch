@@ -1,4 +1,6 @@
-(kicad_sch (version 20210126) (generator eeschema)
+(kicad_sch (version 20210406) (generator eeschema)
+
+  (uuid f32dc69c-9745-46ea-86ab-64a4d405b742)
 
   (paper "A4")
 
@@ -640,9 +642,7 @@
     )
   )
 
-
   (junction (at 86.995 106.045) (diameter 1.016) (color 0 0 0 0))
-  (junction (at 94.615 98.425) (diameter 1.016) (color 0 0 0 0))
   (junction (at 142.875 70.485) (diameter 1.016) (color 0 0 0 0))
   (junction (at 158.115 70.485) (diameter 1.016) (color 0 0 0 0))
   (junction (at 200.533 70.485) (diameter 1.016) (color 0 0 0 0))
@@ -659,10 +659,6 @@
   (wire (pts (xy 86.995 106.045) (xy 86.995 107.315))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 8ab1d359-f637-42df-b1a1-ecea6e39fc09)
-  )
-  (wire (pts (xy 92.075 98.425) (xy 94.615 98.425))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-    (uuid 8b10757c-f5ea-4b1d-9487-6350c6589770)
   )
   (wire (pts (xy 94.615 90.805) (xy 108.585 90.805))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -1093,6 +1089,9 @@
     (property "PartsBoxID" "EEF-CX0J101R" (id 7) (at 200.533 76.835 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (id 8) (at 200.533 76.835 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid fcd4dd53-d129-46f1-a5e4-f9f13c3c2010))
     (pin "2" (uuid c56690fa-3457-42e0-939e-c092aae20d55))
   )
@@ -1325,6 +1324,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "PartsBoxID" "YJ-USB-AF_SMT-01" (id 4) (at 86.995 95.885 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (id 5) (at 86.995 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9a99780e-495c-4ed2-bae3-3115961e65ea))

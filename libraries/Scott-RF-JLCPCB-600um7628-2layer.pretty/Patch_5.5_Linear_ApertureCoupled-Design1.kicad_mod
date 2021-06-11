@@ -1,5 +1,5 @@
 (footprint "Patch_5.5_Linear_ApertureCoupled-Design1" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 60A44122)
+  (tedit 60A67B44)
   (attr through_hole)
   (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
@@ -9,7 +9,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1d31dc5b-6ac3-4695-87cb-d7f30c6bc6ea)
   )
-  (fp_text user "Tweal2-2" (at 12 6 unlocked) (layer "Cmts.User")
+  (fp_text user "Design 1" (at 12 6 unlocked) (layer "Cmts.User")
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
     (tstamp 1ae92c39-7e42-48ed-8440-d2440204c6ac)
   )

@@ -1,129 +1,129 @@
 {
-"DesignRules": [
-{
-"Layers": "Outer",
-"MinLineWidth": 0.222,
-"PadToPad": 0.0,
-"PadToTrack": 0.0,
-"RegionToRegion": 0.508,
-"TrackToRegion": 0.508,
-"TrackToTrack": 0.1999
-}
-],
-"FilesAttributes": [
-{
-"FileFunction": "Copper,L1,Top",
-"FilePolarity": "Positive",
-"Path": "Feeds-F_Cu.gbr"
-},
-{
-"FileFunction": "Copper,L2,Bot",
-"FilePolarity": "Positive",
-"Path": "Feeds-B_Cu.gbr"
-},
-{
-"FileFunction": "SolderPaste,Top",
-"FilePolarity": "Positive",
-"Path": "Feeds-F_Paste.gbr"
-},
-{
-"FileFunction": "SolderPaste,Bot",
-"FilePolarity": "Positive",
-"Path": "Feeds-B_Paste.gbr"
-},
-{
-"FileFunction": "Legend,Top",
-"FilePolarity": "Positive",
-"Path": "Feeds-F_Silkscreen.gbr"
-},
-{
-"FileFunction": "Legend,Bot",
-"FilePolarity": "Positive",
-"Path": "Feeds-B_Silkscreen.gbr"
-},
-{
-"FileFunction": "SolderMask,Top",
-"FilePolarity": "Negative",
-"Path": "Feeds-F_Mask.gbr"
-},
-{
-"FileFunction": "SolderMask,Bot",
-"FilePolarity": "Negative",
-"Path": "Feeds-B_Mask.gbr"
-},
-{
-"FileFunction": "Profile",
-"FilePolarity": "Positive",
-"Path": "Feeds-Edge_Cuts.gbr"
-}
-],
-"GeneralSpecs": {
-"BoardThickness": 0.8,
-"Finish": "None",
-"LayerNumber": 2,
-"ProjectId": {
-"GUID": "46656564-732e-46b6-9963-61645f706362",
-"Name": "Feeds",
-"Revision": "rev?"
-},
-"Size": {
-"X": 186.1,
-"Y": 226.1
-}
-},
-"Header": {
-"CreationDate": "2021-05-18T17:39:43-05:00",
-"GenerationSoftware": {
-"Application": "Pcbnew",
-"Vendor": "KiCad",
-"Version": "5.99.0-unknown-64afa3a42e~128~ubuntu20.04.1"
-}
-},
-"MaterialStackup": [
-{
-"Name": "Top Silk Screen",
-"Type": "Legend"
-},
-{
-"Name": "Top Solder Paste",
-"Type": "SolderPaste"
-},
-{
-"Color": "Green",
-"Name": "Top Solder Mask",
-"Thickness": 0.01,
-"Type": "SolderMask"
-},
-{
-"Name": "F.Cu",
-"Thickness": 0.035,
-"Type": "Copper"
-},
-{
-"Material": "FR4",
-"Name": "F.Cu/B.Cu",
-"Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)",
-"Thickness": 0.71,
-"Type": "Dielectric"
-},
-{
-"Name": "B.Cu",
-"Thickness": 0.035,
-"Type": "Copper"
-},
-{
-"Color": "Green",
-"Name": "Bottom Solder Mask",
-"Thickness": 0.01,
-"Type": "SolderMask"
-},
-{
-"Name": "Bottom Solder Paste",
-"Type": "SolderPaste"
-},
-{
-"Name": "Bottom Silk Screen",
-"Type": "Legend"
-}
-]
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "5.99.0-unknown-64afa3a42e~128~ubuntu20.04.1"
+    },
+    "CreationDate": "2021-05-28T16:02:50-05:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "Feeds",
+      "GUID": "46656564-732e-46b6-9963-61645f706362",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 186.1,
+      "Y": 226.1
+    },
+    "LayerNumber": 2,
+    "BoardThickness": 0.8,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.1999,
+      "MinLineWidth": 0.62,
+      "TrackToRegion": 0.508,
+      "RegionToRegion": 0.508
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "Feeds-F_Cu.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Feeds-B_Cu.gbr",
+      "FileFunction": "Copper,L2,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Feeds-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Feeds-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Feeds-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Feeds-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Feeds-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Feeds-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Feeds-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Green",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.71,
+      "Material": "FR4",
+      "Name": "F.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Green",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
 }

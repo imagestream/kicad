@@ -4666,7 +4666,7 @@
       (reference "R61") (unit 1) (value "0R 1%") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/7ec428ec-d780-419a-b325-e27107dac345"
-      (reference "TR1") (unit 1) (value "TSE265  /  C465989") (footprint "Scott:Transformer_TNK_TSE265")
+      (reference "TR1") (unit 1) (value "TSE265  /  C465989") (footprint "Scott:Transformer_Dual_TNK_TSE265_Wurth")
     )
     (path "/00000000-0000-0000-0000-00005cff706a/01ee700d-28fb-4df9-bfa5-8e3cd9363c82"
       (reference "U3") (unit 1) (value "SN74LVC07AD") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")

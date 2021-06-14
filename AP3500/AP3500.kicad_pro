@@ -44,8 +44,8 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
-          "min_clearance": 1.9049999999999998
+          "45_degree_only": false,
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -429,7 +429,8 @@
         "microvia_drill": 0.1,
         "name": "50R",
         "nets": [
-          "/RF_SIG1"
+          "/RF_SIG1",
+          "/RF_SIG2"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

@@ -1,4 +1,4 @@
-(kicad_sch (version 20210406) (generator eeschema)
+(kicad_sch (version 20210606) (generator eeschema)
 
   (uuid bf8a5589-5413-494c-97fc-ee77e0860112)
 
@@ -1091,6 +1091,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "PartsBoxID" "1775838-2" (id 9) (at 111.76 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C404121" (id 10) (at 111.76 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 40d5045f-41c2-44aa-abfc-b84cc28544b2))

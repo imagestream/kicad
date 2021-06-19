@@ -1,4 +1,4 @@
-(kicad_sch (version 20210406) (generator eeschema)
+(kicad_sch (version 20210606) (generator eeschema)
 
   (uuid 36c30278-92e5-466d-9831-a88f382fbbc6)
 
@@ -23,7 +23,7 @@
       (property "Footprint" "" (id 2) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" " ~" (id 3) (at 0 0 0)
+      (property "Datasheet" " ~{}" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_keywords" "BNC SMA SMB SMC coaxial connector CINCH RCA" (id 4) (at 0 0 0)
@@ -3907,7 +3907,7 @@
     (property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" (id 2) (at 191.135 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" " ~" (id 3) (at 191.135 130.175 0)
+    (property "Datasheet" " ~{}" (id 3) (at 191.135 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid df1e62ea-effd-4890-af99-a3051cc85138))
@@ -3926,7 +3926,7 @@
     (property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" (id 2) (at 209.55 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" " ~" (id 3) (at 209.55 130.175 0)
+    (property "Datasheet" " ~{}" (id 3) (at 209.55 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bcfbb39c-2ec0-40b3-ba6b-db2fb647b6b4))
@@ -3941,7 +3941,7 @@
     (property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" (id 2) (at 229.87 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" " ~" (id 3) (at 229.87 130.175 0)
+    (property "Datasheet" " ~{}" (id 3) (at 229.87 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 841c3eb3-0671-4033-8230-4ec5960e5458))
@@ -3960,7 +3960,7 @@
     (property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" (id 2) (at 248.285 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" " ~" (id 3) (at 248.285 130.175 0)
+    (property "Datasheet" " ~{}" (id 3) (at 248.285 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7c5cfe15-34a7-47ab-8471-d3988f3b94fd))
@@ -4312,7 +4312,7 @@
       (reference "C28") (unit 1) (value "2.2nF 2KV") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/775eba75-5a82-4ad7-9cea-0e6837046a53"
-      (reference "C29") (unit 1) (value "22u  25v") (footprint "Capacitor_SMD:CP_Elec_5x5.8")
+      (reference "C29") (unit 1) (value "22u  25v") (footprint "Capacitor_SMD:CP_Elec_5x5.4")
     )
     (path "/00000000-0000-0000-0000-00005d31f999/13cbed73-6c71-408e-9762-eff0e90f1259"
       (reference "C30") (unit 1) (value "100n 50v") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -4471,16 +4471,16 @@
       (reference "D23") (unit 1) (value "LED Green") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/9853e2cb-c62c-4034-bc79-ce335fc69f23"
-      (reference "FB1") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0603_1608Metric")
+      (reference "FB1") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/2fc574a4-19c0-49af-9e10-705d35d3d16f"
-      (reference "FB2") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0603_1608Metric")
+      (reference "FB2") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/7354b55b-d7ed-4867-a08e-44e7cd1642d1"
-      (reference "FB3") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0603_1608Metric")
+      (reference "FB3") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/f2cfaa45-7dd2-494b-9c45-67e2ad5a692b"
-      (reference "FB4") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0603_1608Metric")
+      (reference "FB4") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/f3f54185-8fb0-47c3-aa5f-a619617d0618"
       (reference "H1") (unit 1) (value "Mounting Hole") (footprint "MountingHole:MountingHole_3.7mm_Pad_TopBottom")
@@ -4672,7 +4672,7 @@
       (reference "U3") (unit 1) (value "SN74LVC07AD") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005d4045a5"
-      (reference "U5") (unit 1) (value "74LVC1G07SE-7") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5")
+      (reference "U5") (unit 1) (value "74LVC1G07SE-7") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/3ab6118d-fc25-4dbc-a28d-ac714af62840"
       (reference "U6") (unit 1) (value "TL431AIDBVR") (footprint "Package_TO_SOT_SMD:SOT-23-5")

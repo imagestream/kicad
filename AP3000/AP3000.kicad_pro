@@ -473,8 +473,7 @@
         "microvia_drill": 0.1,
         "name": "90R",
         "nets": [
-          "/CM4_HighSpeed/USB2_N",
-          "/CM4_HighSpeed/USB2_P"
+          "/CM4_HighSpeed/USB2_N"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -559,7 +558,8 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0
+      "model_mode": 0,
+      "workbook_filename": ""
     },
     "page_layout_descr_file": "",
     "plot_directory": "",

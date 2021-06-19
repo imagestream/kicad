@@ -5087,16 +5087,16 @@
       (reference "D18") (unit 1) (value "MMSD4148T1G") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/9853e2cb-c62c-4034-bc79-ce335fc69f23"
-      (reference "FB1") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0603_1608Metric")
+      (reference "FB1") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/2fc574a4-19c0-49af-9e10-705d35d3d16f"
-      (reference "FB2") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0603_1608Metric")
+      (reference "FB2") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/7354b55b-d7ed-4867-a08e-44e7cd1642d1"
-      (reference "FB3") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0603_1608Metric")
+      (reference "FB3") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/f2cfaa45-7dd2-494b-9c45-67e2ad5a692b"
-      (reference "FB4") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0603_1608Metric")
+      (reference "FB4") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/f3f54185-8fb0-47c3-aa5f-a619617d0618"
       (reference "H1") (unit 1) (value "Mounting Hole") (footprint "MountingHole:MountingHole_2.5mm_Pad_TopBottom")
@@ -5381,7 +5381,7 @@
       (reference "U4") (unit 1) (value "TPD4EUSB30") (footprint "Scott:USON-10_2.51x1.0mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005d4045a5"
-      (reference "U5") (unit 1) (value "74LVC1G07SE-7") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5")
+      (reference "U5") (unit 1) (value "74LVC1G07SE-7") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/3ab6118d-fc25-4dbc-a28d-ac714af62840"
       (reference "U6") (unit 1) (value "TL431AIDBVR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
@@ -5393,7 +5393,7 @@
       (reference "U8") (unit 1) (value "PCF85063AT/AAZ") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005d4cc39f"
-      (reference "U9") (unit 1) (value "74LVC1G07SE-7") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5")
+      (reference "U9") (unit 1) (value "74LVC1G07SE-7") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/00000000-0000-0000-0000-00005d31f999/6647051f-741c-4649-aaab-8412fec1e8f8"
       (reference "U10") (unit 1) (value "TPS563249DDCR") (footprint "Package_TO_SOT_SMD:SOT-23-6")
@@ -5408,7 +5408,7 @@
       (reference "U13") (unit 1) (value "TPS563249DDCR") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/00000000-0000-0000-0000-00005e328d89/00000000-0000-0000-0000-00005e366722"
-      (reference "U14") (unit 1) (value "74LVC1G07SE-7") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5")
+      (reference "U14") (unit 1) (value "74LVC1G07SE-7") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/00000000-0000-0000-0000-00005cff706a/14e93193-49e9-406d-b1e1-a3fa73371aa4"
       (reference "U15") (unit 1) (value "SN74LVC07AD") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")

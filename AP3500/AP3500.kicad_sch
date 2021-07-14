@@ -1,4 +1,4 @@
-(kicad_sch (version 20210606) (generator eeschema)
+(kicad_sch (version 20210621) (generator eeschema)
 
   (uuid 36c30278-92e5-466d-9831-a88f382fbbc6)
 
@@ -4173,6 +4173,12 @@
   )
 
   (symbol_instances
+    (path "/00000000-0000-0000-0000-00005cff706a/65ac2d67-a56e-49f4-a480-f333fb637e08"
+      (reference "#PWR01") (unit 1) (value "GNDPWR") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/d520c6b8-3078-4353-8b06-2065cae677c6"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e20cb90"
       (reference "#PWR05") (unit 1) (value "GND") (footprint "")
     )
@@ -4187,12 +4193,6 @@
     )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e16bb43"
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005cff706a/c8e39566-b092-4357-87d6-a7dbed84d9dc"
-      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005cff706a/72c5d17c-0fc2-4f70-9be4-6e3123dac72b"
-      (reference "#PWR0108") (unit 1) (value "GNDPWR") (footprint "")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/64e92606-f9d5-4d5d-8f02-8dcc26e7ef7b"
       (reference "#PWR0112") (unit 1) (value "GNDPWR") (footprint "")
@@ -4251,7 +4251,7 @@
     (path "/00000000-0000-0000-0000-00005ed4bb5b/d9efc59b-0ca1-42ed-aac3-374327748eb4"
       (reference "#PWR0138") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005cff706a/e19c08ac-0b54-4d5c-b42a-fa1f8ee1be88"
+    (path "/00000000-0000-0000-0000-00005cff706a/6f3a751e-d291-4596-a8de-2f402b67ee3b"
       (reference "C1") (unit 1) (value "100n 50v") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ed4bb5b/cf9b9252-fec4-48c0-925a-2ff23b175536"
@@ -4512,7 +4512,7 @@
     (path "/13750254-b93a-4b60-a885-a73c0a29d2e0"
       (reference "J5") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical")
     )
-    (path "/00000000-0000-0000-0000-00005cff706a/ec55e9d7-9805-47d2-aa32-3b7f0603007f"
+    (path "/00000000-0000-0000-0000-00005cff706a/f1bf9665-bfab-49fb-a5e1-6cc604ab7cb4"
       (reference "J9") (unit 1) (value "0826-1X1T-GH-F") (footprint "BEL_0826-1X1T-GH-F")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/33911352-34b6-4f21-85ba-14fd5dd4dbf8"
@@ -4545,10 +4545,10 @@
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e19768b"
       (reference "R1") (unit 1) (value "1K 1%") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005cff706a/ad30fe83-5976-4e0c-94bf-9b36939293ad"
+    (path "/00000000-0000-0000-0000-00005cff706a/a477f63a-34fb-4483-a840-7b472a5fe7b5"
       (reference "R2") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005cff706a/125bae1c-aa2d-4013-a9e8-cf5348d566b1"
+    (path "/00000000-0000-0000-0000-00005cff706a/c8132d6b-80c3-48d9-9536-5dccb79e4c51"
       (reference "R3") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/ae7f2f16-8c5f-4767-bf11-fb4ce4d38e2a"
@@ -4666,7 +4666,7 @@
       (reference "R61") (unit 1) (value "0R 1%") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/7ec428ec-d780-419a-b325-e27107dac345"
-      (reference "TR1") (unit 1) (value "TSE265  /  C465989") (footprint "Scott:Transformer_Dual_TNK_TSE265_Wurth")
+      (reference "TR1") (unit 1) (value "TSE265  /  C465989") (footprint "Scott:Transformer_EP13")
     )
     (path "/00000000-0000-0000-0000-00005cff706a/01ee700d-28fb-4df9-bfa5-8e3cd9363c82"
       (reference "U3") (unit 1) (value "SN74LVC07AD") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")

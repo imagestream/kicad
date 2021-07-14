@@ -1,4 +1,4 @@
-(kicad_sch (version 20210606) (generator eeschema)
+(kicad_sch (version 20210621) (generator eeschema)
 
   (uuid 572dd335-6c9f-4ae7-8e25-2a6a36961126)
 
@@ -5315,7 +5315,7 @@
     (uuid 7ec428ec-d780-419a-b325-e27107dac345)
     (property "Reference" "TR1" (id 0) (at 187.96 67.31 0))
     (property "Value" "TSE265  /  C465989" (id 1) (at 187.96 69.85 0))
-    (property "Footprint" "Scott:Transformer_Dual_TNK_TSE265_Wurth" (id 2) (at 186.69 86.36 0)
+    (property "Footprint" "Scott:Transformer_EP13" (id 2) (at 186.69 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 186.69 86.36 0)

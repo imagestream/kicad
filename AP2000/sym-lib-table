@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "AP3000")(type "KiCad")(uri "/home/syoder/kicad/AP3000/AP3000.kicad_sym")(options "")(descr ""))
+  (lib (name "L836-1J1T-43")(type "KiCad")(uri "${KIPRJMOD}/L836-1J1T-43.kicad_sym")(options "")(descr ""))
+  (lib (name "CM4IO")(type "KiCad")(uri "/home/syoder/kicad/CM4IO/CM4IO.kicad_sym")(options "")(descr ""))
+)

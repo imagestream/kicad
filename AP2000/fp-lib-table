@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "AP3000")(type "KiCad")(uri "/home/syoder/kicad/AP3000/AP3000.pretty")(options "")(descr ""))
+  (lib (name "CM4IO")(type "KiCad")(uri "/home/syoder/kicad/CM4IO/CM4IO.pretty")(options "")(descr ""))
+)

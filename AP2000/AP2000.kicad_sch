@@ -3847,7 +3847,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 213.995 141.605 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 84f307bc-ff55-4060-afb7-c28adde0e26e)
-    (property "Reference" "H?" (id 0) (at 217.17 140.3349 0)
+    (property "Reference" "H6" (id 0) (at 217.17 140.3349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "HeatSink" (id 1) (at 217.17 142.8749 0)
@@ -3861,10 +3861,27 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 216.535 151.13 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 225b2bcc-0a8c-4181-8d76-869ceede9bf4)
+    (property "Reference" "H8" (id 0) (at 219.71 149.8599 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "HeatSink" (id 1) (at 219.71 152.3999 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Scott:CM4_Mounting_Hole" (id 2) (at 216.535 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.amazon.com/MroMax-Machine-Phillips-Stainless-Cabinet/dp/B07YS6D2GT/ref=sr_1_10?dchild=1&gclid=Cj0KCQjwqKuKBhCxARIsACf4XuF4Q-bwWlCSQ9m9de-DMcRwzY4OKs2FQ95kiMNENXwpyLO88pn_MmwaAvo_EALw_wcB&hvadid=503610561779&hvdev=c&hvlocphy=9028269&hvnetw=g&hvqmt=e&hvrand=9499715407067735490&hvtargid=kwd-296946281905&hydadcr=6199_9464726&keywords=m2.5+x+8mm+screws&qid=1632341243&sr=8-10" (id 3) (at 216.535 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "Mechanical:MountingHole") (at 230.505 141.605 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5cda5b42-76c2-4977-9701-2aae3cb66034)
-    (property "Reference" "H?" (id 0) (at 233.68 140.3349 0)
+    (property "Reference" "H7" (id 0) (at 233.68 140.3349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "HeatSink" (id 1) (at 233.68 142.8749 0)
@@ -3874,6 +3891,23 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.amazon.com/MroMax-Machine-Phillips-Stainless-Cabinet/dp/B07YS6D2GT/ref=sr_1_10?dchild=1&gclid=Cj0KCQjwqKuKBhCxARIsACf4XuF4Q-bwWlCSQ9m9de-DMcRwzY4OKs2FQ95kiMNENXwpyLO88pn_MmwaAvo_EALw_wcB&hvadid=503610561779&hvdev=c&hvlocphy=9028269&hvnetw=g&hvqmt=e&hvrand=9499715407067735490&hvtargid=kwd-296946281905&hydadcr=6199_9464726&keywords=m2.5+x+8mm+screws&qid=1632341243&sr=8-10" (id 3) (at 230.505 141.605 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 233.045 151.13 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 5bd193c6-8331-41c9-8310-7789aee9f513)
+    (property "Reference" "H9" (id 0) (at 236.22 149.8599 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "HeatSink" (id 1) (at 236.22 152.3999 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Scott:CM4_Mounting_Hole" (id 2) (at 233.045 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.amazon.com/MroMax-Machine-Phillips-Stainless-Cabinet/dp/B07YS6D2GT/ref=sr_1_10?dchild=1&gclid=Cj0KCQjwqKuKBhCxARIsACf4XuF4Q-bwWlCSQ9m9de-DMcRwzY4OKs2FQ95kiMNENXwpyLO88pn_MmwaAvo_EALw_wcB&hvadid=503610561779&hvdev=c&hvlocphy=9028269&hvnetw=g&hvqmt=e&hvrand=9499715407067735490&hvtargid=kwd-296946281905&hydadcr=6199_9464726&keywords=m2.5+x+8mm+screws&qid=1632341243&sr=8-10" (id 3) (at 233.045 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -3920,7 +3954,7 @@
     (property "Reference" "H1" (id 0) (at 230.505 100.965 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Mounting Hole" (id 1) (at 230.505 107.315 0)
+    (property "Value" "HeatSink" (id 1) (at 230.505 107.315 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "MountingHole:MountingHole_3.7mm_Pad_TopBottom" (id 2) (at 229.87 105.41 0)
@@ -4493,7 +4527,7 @@
       (reference "FB4") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/f3f54185-8fb0-47c3-aa5f-a619617d0618"
-      (reference "H1") (unit 1) (value "Mounting Hole") (footprint "MountingHole:MountingHole_3.7mm_Pad_TopBottom")
+      (reference "H1") (unit 1) (value "HeatSink") (footprint "MountingHole:MountingHole_3.7mm_Pad_TopBottom")
     )
     (path "/3736e4c9-a485-4284-a109-7ca11a0a21cd"
       (reference "H2") (unit 1) (value "Mounting Hole") (footprint "MountingHole:MountingHole_3.7mm_Pad_TopBottom")
@@ -4507,11 +4541,17 @@
     (path "/00000000-0000-0000-0000-00005cff706a/3ec6c8f4-fc0d-44dd-b839-4efbdf62c63d"
       (reference "H5") (unit 1) (value "LightPipe") (footprint "Scott:VCC_LightPipe_7511A62")
     )
-    (path "/5cda5b42-76c2-4977-9701-2aae3cb66034"
-      (reference "H?") (unit 1) (value "HeatSink") (footprint "Scott:CM4_Mounting_Hole")
-    )
     (path "/84f307bc-ff55-4060-afb7-c28adde0e26e"
-      (reference "H?") (unit 1) (value "HeatSink") (footprint "Scott:CM4_Mounting_Hole")
+      (reference "H6") (unit 1) (value "HeatSink") (footprint "Scott:CM4_Mounting_Hole")
+    )
+    (path "/5cda5b42-76c2-4977-9701-2aae3cb66034"
+      (reference "H7") (unit 1) (value "HeatSink") (footprint "Scott:CM4_Mounting_Hole")
+    )
+    (path "/225b2bcc-0a8c-4181-8d76-869ceede9bf4"
+      (reference "H8") (unit 1) (value "HeatSink") (footprint "Scott:CM4_Mounting_Hole")
+    )
+    (path "/5bd193c6-8331-41c9-8310-7789aee9f513"
+      (reference "H9") (unit 1) (value "HeatSink") (footprint "Scott:CM4_Mounting_Hole")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/9ba1b965-ee46-4012-bcf5-d34cd55ad7ed"
       (reference "IC2") (unit 1) (value "TPS23751PWPR") (footprint "Scott:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias")
@@ -4691,13 +4731,13 @@
       (reference "U2") (unit 1) (value "ATECC608A-MAHDA") (footprint "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm")
     )
     (path "/00000000-0000-0000-0000-00005cff706a/01ee700d-28fb-4df9-bfa5-8e3cd9363c82"
-      (reference "U3") (unit 1) (value "SN74LVC07AD") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
+      (reference "U3") (unit 1) (value "SN74LVC07AD") (footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005d4045a5"
       (reference "U5") (unit 1) (value "74LVC1G07SE-7") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/3ab6118d-fc25-4dbc-a28d-ac714af62840"
-      (reference "U6") (unit 1) (value "TL431AIDBVR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+      (reference "U6") (unit 1) (value "TL431AIDBVR") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00005d31f999/6647051f-741c-4649-aaab-8412fec1e8f8"
       (reference "U10") (unit 1) (value "TPS563249DDCR") (footprint "Package_TO_SOT_SMD:SOT-23-6")

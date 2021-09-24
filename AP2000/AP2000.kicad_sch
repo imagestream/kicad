@@ -4317,7 +4317,7 @@
       (reference "C8") (unit 1) (value ".1u 100v") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/e0fb06e0-20fd-4e3b-966f-8700ad9eff1f"
-      (reference "C9") (unit 1) (value "2200pF 100v") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C9") (unit 1) (value "2200pF 100v") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/688c966a-716c-4963-b147-f4f387ed9e0a"
       (reference "C10") (unit 1) (value "2.2u 100v") (footprint "Capacitor_SMD:C_1210_3225Metric")
@@ -4515,16 +4515,16 @@
       (reference "D20") (unit 1) (value "LED Green") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/9853e2cb-c62c-4034-bc79-ce335fc69f23"
-      (reference "FB1") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0805_2012Metric")
+      (reference "FB1") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/2fc574a4-19c0-49af-9e10-705d35d3d16f"
-      (reference "FB2") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0805_2012Metric")
+      (reference "FB2") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/7354b55b-d7ed-4867-a08e-44e7cd1642d1"
-      (reference "FB3") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0805_2012Metric")
+      (reference "FB3") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/4e123158-2d06-47e2-89a0-87bf08de438a/f2cfaa45-7dd2-494b-9c45-67e2ad5a692b"
-      (reference "FB4") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0805_2012Metric")
+      (reference "FB4") (unit 1) (value "300 OHM") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/f3f54185-8fb0-47c3-aa5f-a619617d0618"
       (reference "H1") (unit 1) (value "HeatSink") (footprint "MountingHole:MountingHole_3.7mm_Pad_TopBottom")
